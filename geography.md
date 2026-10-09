@@ -2,7 +2,7 @@
 
 # Geography of Liankou
 
-Liankou is a walled coastal site. The wall keeps the experiment from spilling inland and keeps inland rules from applying once inside. Beyond it the city is a megastructure.
+Liankou is a walled coastal site. The wall keeps the experiment from spilling inland and keeps inland rules from applying once inside. Beyond it the city is one structure, several hundred to a few thousand stories, the floor lines lost in haze before the crown.
 
 ## Upper city
 

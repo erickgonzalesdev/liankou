@@ -2,7 +2,7 @@
 
 # Liankou
 
-**Liankou** (联口市), formally the **Liankou Special Zone** (联口特别区), is a walled coastal city and special economic zone on the south China coast, opened in 1978. It was designated an experimental port for outside capital, export manufacture, and a cybernetic coordination system, on a holiday from the interior plan. The holiday was extended with each published growth series. By the mid-1980s the wall was still the municipal boundary, and the interior of it had become a single occupied megastructure the size of a metro.
+**Liankou** (联口市), formally the **Liankou Special Zone** (联口特别区), is a walled coastal city and special economic zone on the south China coast, opened in 1978. It was designated an experimental port for outside capital, export manufacture, and a cybernetic coordination system, on a holiday from the interior plan. The holiday was extended with each published growth series. By the mid-1980s the wall was still the municipal boundary, and the interior of it had become a single occupied megastructure of several hundred to a few thousand stories, a metro standing on end.
 
 The city is administered in form by the Liankou Zone Committee and in practice split with the Huanan Development Corporation (华南开发总公司), which holds the export seals, the inference halls, and private jurisdiction in the upper city. Residence and work are separate legal states. Passage is a permit. Registration rarely converts. Upper Liankou is a sealed joint-venture city. Lower Liankou, called the lower stack (下栈), is the labor city those ventures require.
 
