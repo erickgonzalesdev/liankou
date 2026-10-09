@@ -18,7 +18,7 @@
 
 Lixin rented its site from the development company and hired 临时工 on its own standard. It refused a party secretary. When export stamps slowed, the firm shipped a crate under its own name. That shipment, and an unsigned devotion returned in public by the founder, were the acts cited at seizure.
 
-The site contract was ended without a trial. Halls, stock, and books were retitled as zone property. The company's ledger entered the seizure as a recovered contribution.
+The site contract was ended without a trial. Halls, stock, and books were retitled as zone property. The company's ledger entered the seizure as a recovered contribution. The founder was sent down with an order to finish him on the freight drop. He was not among the bodies logged that night.
 
 ## Products
 

@@ -16,12 +16,12 @@ He founded Lixin inside the wall in the first contract cycles. The firm designed
 
 Pressure continued: a devotion statement, a party desk, a seal withheld until the invention was retitled as the zone's. Liang returned the statement unsigned, in public, and dispatched a crate under the Lixin name while the stamp was held. The committee filed both acts as defiance.
 
-There was no trial. The site contract was ended. Halls, stock, and books were seized and vested in Liankou Development. Liang was walked to the service band and left to the lower stack on a permit that does not renew.
+There was no trial. The site contract was ended. Halls, stock, and books were seized and vested in Liankou Development. The order that followed was not a transfer. A service-band detail was told to finish him on the way down and leave the body where the lower stack would account for it. He was walked as far as the freight drop. He did not arrive as a corpse. The permit issued in his number does not renew. It was not meant to be used.
 
 ## Public campaign
 
-After the seizure the committee did not let the name lapse. Wall sheets, band loudspeakers, and the tour script name him. The charge is spiritual pollution and a specialist who stole from the people: the boards are described as zone property he tried to walk out, the refused statement as contempt for the workers who built the fence. A reward is implied for reporting him. No figure is printed. In the 下栈 the sheet is weather. Some landings have torn it down. Others have learned the face.
+The committee published him before the drop, and kept the sheets up after he was reported dead. Wall sheets, band loudspeakers, and the tour script name him. The charge is spiritual pollution and a specialist who stole from the people: the boards are described as zone property he tried to walk out, the refused statement as contempt for the workers who built the fence. A reward is printed for him delivered, and a smaller one for a confirmed kill. In the 下栈 the sheet is weather. Some landings have torn it down. Others have learned the face, and the price on it.
 
-## After the seizure
+## After the drop
 
-He remains in the lower stack, recognizable where the sheets have stuck. Offices, and the [White Crane Association](white-crane.md), have offered reinstatement in exchange for the signature. He has not signed. Lixin no longer appears on the register. The line still runs, under another name, in halls he is not cleared to enter.
+He is alive in the lower stack, which the committee has not conceded. The detail that walked him did not come back. Offices, and the [White Crane Association](white-crane.md), will still sell a signature and a reinstatement. The men posted on the landings are not there to collect a signature. The crown will not open a gate for him. The only way back to the seized halls is through the floors that were told to kill him on sight.
