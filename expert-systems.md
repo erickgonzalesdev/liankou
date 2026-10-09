@@ -71,6 +71,30 @@ Feeds arrive by leased line and, inside the wall, by dedicated cable drops. Upda
 
 Retired cathode tubes are rebuilt into display boards in the lower city. These reproduce phosphor characteristics. They do not execute live rules.
 
+## Operational examples
+
+The following are representative live cycles. Figures are illustrative of the rule form in service. They are not a published operations log.
+
+### Dock clearance
+
+A bulk carrier reports at the outer buoy: class bulk, cargo code on the bonded list, three prior clearances in the current quarter, declared value under the cargo threshold. The customs engine forward-chains. Three rules match. Specificity orders them. Certainty factors combine to a clearance weight of 0.82. The office supervisory rule emits a berth token and a discharge window. Elapsed time from report to token is under one reporting cycle. The hull proceeds. No clerk retypes the declaration.
+
+### Failed clearance
+
+A second hull reports the same class and cargo code but with a declared value above threshold and a prior failed inspection flag. Two rules fire negative factors. Combined weight falls to 0.31, below the clearance threshold. The engine writes a null-success token and an exception flag. The operations room cathode shows the flag. The hull is held at the buoy. The exception does not auto-appeal. A service-band clerk may open a manual review. The manual review does not rewrite the knowledge base.
+
+### Bunk and water assignment
+
+A temporary-worker record arrives from a mill: skill code matched to an open shift, current bunk occupancy on that rib at 0.94, water quota for the slab already at the daily cap. The labor engine fires a positive skill rule and two negative resource rules. Net weight 0.44. The office rule assigns the shift but withholds the bunk token and issues a water-wait flag. The worker receives a shift ticket and no bed assignment. The landing sees a man with a valid shift paper and nowhere to sleep. The system records the outcome as an allocation, not an exception.
+
+### Mid-cycle shift reassignment
+
+A mill reports a machine fault that idles one line. The labor feed updates. Forward chaining re-evaluates open shifts against the new idle flag. A rule with higher specificity than the original assignment fires. Confidence is sufficient. The office emits a revised token canceling four shift tickets and opening two on an adjacent line. The change appears on the next horn. Workers who do not hear the horn discover the cancellation at the gate. The system does not push a spoken notice below the band.
+
+### What the examples exclude
+
+None of the cycles accepts free-text input. None invents a rule to cover a missing predicate. A cargo code absent from the schema produces a null weight and an exception, not an estimated clearance. Knowledge engineers may later add the predicate. Until the commit and countersignature, the null stands.
+
 ## Bootleg weights
 
 Partial rule listings circulate in the lower stack, sold as aids to anticipate or counterfeit a token. They are static extracts. They do not connect to the live relational store and rarely reproduce current confidence values. Possession is not systematically prosecuted. The office does not publish diffs.
