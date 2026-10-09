@@ -12,7 +12,7 @@ Late-1970s and early-1980s expert systems encoded specialist procedures as IF–
 
 The Japanese Fifth Generation Computer Systems project (ICOT, 1982–1992) proposed machines oriented to knowledge information processing rather than numerical calculation: logic programming (Prolog and later concurrent variants), parallel inference, and large relational knowledge bases. Most results remained research prototypes.
 
-Liankou adopted the production-rule architecture and the fifth-generation emphasis on inference over calculation, without joining an external institute. Initial Regulation Office links were telex. Clerks reduced reports by hand. Machine replacement occurred in the early 1980s. Inference boards were supplied by [Lixin Precision](lixin.md) until the firm’s seizure.
+Liankou adopted the production-rule architecture and the fifth-generation emphasis on inference over calculation, without joining an external institute. A second lineage is the LISP-machine practice of the same decade: single-user symbolic workstations, tagged architectures, interactive environments, and LISP as the implementation language for both the shell and the inference runtime. The zone did not import the commercial LISP machines. It built a reduced symbolic layer on its own boards and kept the LISP surface for the knowledge engineers. Initial Regulation Office links were telex. Clerks reduced reports by hand. Machine replacement occurred in the early 1980s. Inference boards were supplied by [Lixin Precision](lixin.md) until the firm’s seizure.
 
 ## Knowledge representation
 
@@ -40,6 +40,14 @@ CONFIDENCE 0.85
 Predicates are drawn from a domain schema. Free variables are not permitted in committed rules. The language is compiled to an internal relational form before loading. There is no general-purpose procedural escape in the committed base. Side computations (threshold lookups, date windows) are performed by registered functions held outside the rule text.
 
 The notation descends from early-1980s shells (OPS5-style productions, EMYCIN certainty attachment) rather than from a pure logic-programming syntax. A concurrent-logic subset, influenced by the Fifth Generation emphasis on committed-choice languages, is used only inside the inference engine for partition scheduling. Knowledge engineers do not write that subset.
+
+### LISP substrate
+
+The rule language is compiled to an internal relational form, but the compiler, the shell, and the inference runtime are implemented in a zone dialect of LISP. Knowledge engineers work on single-user symbolic workstations in the upper-city halls: cathode, local tagged memory, and an interactive listener. Rule text is S-expression data. The editor is a LISP program operating on that data. A commit is a list structure that the static checker walks before it is lowered to the relational store.
+
+The live engines do not expose the listener. Once a rule partition is loaded, evaluation is the Rete network and the certainty-factor update, not open LISP evaluation. The LISP layer remains available to the shell and to the shadow-replay checker. Garbage collection runs on the workstations. It does not run on the live token path. Operators in the operations room see weights and flags. They do not see the listener.
+
+This is the LISP-machine increment that coexists with the fifth-generation one. Parallel partition scheduling is attributed to the fifth-generation reconstruction. The interactive symbolic environment and the S-expression rule representation are attributed to LISP-machine practice. Both are in service. Neither is published below the service band.
 
 ### Knowledge-base management
 
