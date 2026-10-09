@@ -18,6 +18,30 @@ The clerical aggregation layer was replaced by domain expert systems. Knowledge 
 
 The lower stack lay inside the original data perimeter. Upper-city private commercial courts did not. A failed token continues to be logged as a project event irrespective of local awareness of the name Tiaojie.
 
+## Cybernetic design
+
+Tiaojie was specified as a cybernetic regulator for a high-variety export port, not as a batch planning system. The design borrows the vocabulary and the control claims of 1970s management cybernetics (real-time feedback, variety engineering, recursive organization) and applies them inside the zone’s dual-track economy.
+
+### Variety
+
+The port generates more states than a clerical staff can enumerate: hulls, cargo codes, shift combinations, bunk occupancy, water draw, inspection flags. The project’s first claim was that this variety had to be absorbed in the operations room rather than attenuated by delay or by referral to interior ministries. Early attenuation was clerical aggregation. After the early-1980s reconstruction, attenuation is performed by the domain expert systems, which collapse a feed record into a weight. The office treats the weight as the regulated variable.
+
+### Recursion
+
+Reporting is recursive in the cybernetic sense. A mill is a regulator for its lines, the service band is a regulator for the mills and dormitory slabs that report through it, and the operations room is the regulator for the zone. Each level is supposed to handle the variety proper to it and pass only exceptions upward. In practice the lower stack has no functioning regulator of its own. Exceptions and routine allocations both arrive as tokens. The recursion is complete on the machine side and incomplete on the human side below the band.
+
+### Feedback and the token
+
+The token is the feedback signal. A clearance weight, a shift assignment, or a bunk refusal is the system’s output returned to the point of action. Positive feedback appears as a reassignment inside the same cycle (idle line cancels tickets and opens others). Negative feedback appears as a hold (weight below threshold, hull remains at the buoy). There is no separate “algedonic” channel in the published design. Pain signals—failed tokens, water-wait flags, shift cancellations—travel on the same circuits as ordinary allocations. The operations room distinguishes them by exception flags, not by a dedicated alarm line.
+
+### Operations room
+
+The operations room in the upper city is the system’s metacontroller. Cathode stations display domain weights, exception flags, and clearance throughput. Operators do not rewrite rules from the floor. They may initiate a backward-chaining query, open a manual review, or request a knowledge-engineer commit. The room’s public function is to keep export clearance inside the published window. Its private function is to keep the variety of the port from reaching the interior ministries.
+
+### Limits of the cybernetic claim
+
+The design assumes that the rule bases are an adequate model of the port. Rule gaps produce null weights rather than adaptive reorganization. The lower stack generates variety (forged papers, unticketed movement, landing bosses) that never fully enters the relational store. That variety is absorbed, if at all, by men with tools, not by the regulator. The project therefore regulates the port it can see. The port beneath the service band is only partly inside the model.
+
 ## System architecture
 
 ### Reporting layer
