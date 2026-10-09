@@ -2,7 +2,7 @@
 
 City article for 联口特别区, the Liankou Special Zone. Working name.
 
-- [Liankou](liankou.md) — main article
+- [Liankou](liankou.md)
 - [History of Liankou](history.md)
 - [Geography of Liankou](geography.md)
 - [Government of Liankou](government.md)
@@ -21,7 +21,14 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 - [Cadre Guesthouse](cadre-hotel.md) (干部招待所)
 - [White Crane Association](white-crane.md) (白鹤会)
 
-## Market houses
+## Private corporations
+
+- [Shunfa Trading](shunfa.md) (顺发贸易)
+- [Xinji Electronics](xinji.md) (新纪电子)
+- [Weyue Holdings](weyue.md) (伟裕实业)
+- [Minfa Steam](minfa.md) (闽发轮船)
+
+## Charter houses
 
 - [Market houses of Liankou](corporations.md)
 - [Nanyang Wharf](nanyang-wharf.md) (南洋码头)
