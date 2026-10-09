@@ -12,18 +12,20 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 - [Project Tiaojie](project-tiaojie.md) (调节工程)
 - [Expert systems in Liankou](expert-systems.md)
 
-## Authorities
+## Zone structure
 
+- [Houses of Liankou](corporations.md)
 - [Zone Committee](zone-committee.md)
-- [Huanan Development](huanan-development.md) (华南开发总公司)
+- [Liankou Development Company](huanan-development.md) (联口工业发展总公司)
+- [Harbor Bureau](harbor-bureau.md) (联口港务局)
+- [Lianhe Electronics](lianhe.md) (联和电子有限公司)
 - [Cadre Guesthouse](cadre-hotel.md) (干部招待所)
 - [White Crane Association](white-crane.md) (白鹤会)
 
-## Private corporations
+## Small private
 
-- [Market houses](corporations.md)
-- [Shunfa Trading](shunfa.md) (顺发贸易)
-- [Desheng Mill](desheng.md) (德胜厂)
-- [Xinji Electronics](xinji.md) (新纪电子)
-- [Weyue Holdings](weyue.md) (伟裕实业)
-- [Minfa Steam](minfa.md) (闽发轮船)
+- [Shunfa Trading](shunfa.md)
+- [Desheng Workshop](desheng.md)
+- [Weyue](weyue.md)
+- [Minfa Lighters](minfa.md)
+- [Xinji Repair](xinji.md)

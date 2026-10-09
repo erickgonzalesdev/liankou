@@ -1,9 +1,7 @@
 # Government of Liankou
 
-Liankou has two authorities on one map.
+The [Zone Committee](zone-committee.md) is the municipal authority of the special zone. It posts targets, issues 许可证, withholds 户口, and tours the sheds. Cadres sleep at the [Cadre Guesthouse](cadre-hotel.md).
 
-The [Zone Committee](zone-committee.md) is the political administration. It posts targets, tours the atria, and uses the language of the opening. It describes the lower city as transitional housing. Cadres sleep at the [Cadre Guesthouse](cadre-hotel.md).
+[Liankou Development](huanan-development.md) is the state company that builds and rents the zone. The [Harbor Bureau](harbor-bureau.md) runs the berths the company built. Foreign plants, of which [Lianhe Electronics](lianhe.md) is the largest, sign site contracts and export through the company's seal.
 
-[Huanan Development](huanan-development.md) holds the charter: the only seal, the halls, the charter berths, the Forward Book, and private law in Shangcheng. It is older than the zone. It prices the lower city and does not govern it.
-
-The private houses rent that seal and keep their own books. See [market houses](corporations.md). The [White Crane Association](white-crane.md) sells the protection both sides would rather buy. House security stands at the service band. Neither patrols the ribs.
+Small private desks sit under that: [Shunfa Trading](shunfa.md), [Desheng Workshop](desheng.md), [Weyue](weyue.md), [Minfa Lighters](minfa.md). The [White Crane Association](white-crane.md) rents protection on the band. None of them hold a seal.

@@ -1,21 +1,25 @@
-# Market houses of Liankou
+# Houses of Liankou
 
-One chartered company. Five private houses. The syndicate rents hours to both.
+Named in the manner of a special zone: a development company, a harbor bureau, a foreign plant, and a thin private edge.
 
-## Charter
+## State
 
-- [Huanan Development](huanan-development.md) (华南开发总公司) holds the seal, the berths, the halls, and the Forward Book.
+- [Zone Committee](zone-committee.md)
+- [Liankou Development Company](huanan-development.md) (联口工业发展总公司)
+- [Harbor Bureau](harbor-bureau.md) (联口港务局)
 
-## Private
+## Foreign plant
 
-- [Shunfa Trading](shunfa.md) (顺发贸易) buys output and rents the stamp.
-- [Desheng Mill](desheng.md) (德胜厂) cuts. Not a joint venture.
-- [Xinji Electronics](xinji.md) (新纪电子) builds the boards. The operations room is a customer.
-- [Weyue Holdings](weyue.md) (伟裕实业) trades the spread on canceled tickets.
-- [Minfa Steam](minfa.md) (闽发轮船) runs the night tide.
+- [Lianhe Electronics](lianhe.md) (联和电子有限公司), Hong Kong invested, site leased
 
-## Neither
+## Small private
 
-- [White Crane Association](white-crane.md) (白鹤会) rents the hours the seal will not sell directly.
+- [Shunfa Trading](shunfa.md) (顺发贸易)
+- [Desheng Workshop](desheng.md) (德胜加工场)
+- [Weyue](weyue.md) (伟裕), ticket desk
+- [Minfa Lighters](minfa.md) (闽发驳船)
+- [Xinji Repair](xinji.md) (新纪修配)
 
-A 许可证 permits the shift. A 户口 is not included.
+## Band
+
+- [White Crane Association](white-crane.md) (白鹤会)

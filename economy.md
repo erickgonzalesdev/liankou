@@ -1,7 +1,7 @@
 # Economy of Liankou
 
-Liankou runs a dual-track economy, 双轨制, that hardened into floors. Above the service band: contracts, convertible scrip, private houses, overseas Chinese capital, courts outside the plan. Below it: allocated beds, shift tickets, piece rates, quota.
+Liankou is an export-processing zone on a dual track, 双轨制. Foreign exchange earned inside the fence can be retained. A 许可证 lets a worker in for a shift. A 户口 does not follow.
 
-[Huanan Development](huanan-development.md) holds the only seal and books clearances before the goods exist. Beside it, not under it: [Shunfa Trading](shunfa.md) exports, [Desheng Mill](desheng.md) cuts, [Xinji Electronics](xinji.md) builds the boards, [Weyue Holdings](weyue.md) trades canceled tickets, [Minfa Steam](minfa.md) runs the night tide.
+The state holds the ground and the gate. [Liankou Development](huanan-development.md) owns the sites. The [Harbor Bureau](harbor-bureau.md) owns the berths. [Lianhe Electronics](lianhe.md) is the foreign plant the zone was opened to receive. Shed workshops and ticket desks take the remainder.
 
-The [Regulation Office](regulation-office.md) scores the feed. A 许可证 permits the shift. A 户口 is not included.
+The [Regulation Office](regulation-office.md) scores bunks, water, and clearances off the export feed. That office is the zone's fiction. The contracts, the seal, and the permit are not.

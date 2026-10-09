@@ -1,7 +1,5 @@
-# Desheng Mill
+# Desheng Workshop
 
-Desheng Mill (德胜厂) is a private cutting house. It is not a joint venture and not a Huanan floor. The family that owns it bought the sheds in the first contract cycle and did not sell them back.
+Desheng Workshop (德胜加工场) is a shed works, family-run, on rented ground. It cuts and finishes what [Lianhe Electronics](lianhe.md) will not stop the line for. Labor is 临时工, often a ticket [Weyue](weyue.md) sold after the [Regulation Office](regulation-office.md) canceled the name.
 
-Desheng runs on 临时工, temporary labor, like every mill inside the wall. It does not take bunk assignments as gospel. When the [Regulation Office](regulation-office.md) drops a name, Desheng will still pay the body if [Weyue Holdings](weyue.md) can produce a ticket. The rate is worse than a charter shift. The horn is the same.
-
-Output goes to [Shunfa Trading](shunfa.md) first. What Shunfa cannot stamp in the hour goes out on [Minfa Steam](minfa.md) at night. Huanan has offered to book Desheng's clearances in advance. Desheng declines. The offer comes again each extension of the holiday.
+The workshop is the small private layer of the zone: real, numerous in life, thin on paper. [Liankou Development](huanan-development.md) can take the site back when a larger contract needs the lane.
