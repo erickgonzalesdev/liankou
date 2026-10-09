@@ -34,3 +34,9 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 - [Weyue](weyue.md)
 - [Minfa Lighters](minfa.md)
 - [Xinji Repair](xinji.md)
+
+## Armaments and armed men
+
+- [Armaments in Liankou](weapons.md)
+- [Zone Protection](zone-protection.md)
+- [Lower stack](lower-stack.md)
