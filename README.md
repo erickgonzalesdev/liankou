@@ -1,6 +1,6 @@
 # Liankou
 
-City article for a walled coastal special zone. Working name.
+City article for 联口特别区, the Liankou Special Zone. Working name.
 
 - [Liankou](liankou.md) — main article
 - [History of Liankou](history.md)
@@ -8,15 +8,23 @@ City article for a walled coastal special zone. Working name.
 - [Government of Liankou](government.md)
 - [Economy of Liankou](economy.md)
 - [Demographics of Liankou](demographics.md)
-- [Regulation Office](regulation-office.md)
-- [Project Tiaojie](project-tiaojie.md)
+- [Regulation Office](regulation-office.md) (调节办公室)
+- [Project Tiaojie](project-tiaojie.md) (调节工程)
 - [Expert systems in Liankou](expert-systems.md)
 
 ## Organizations
 
 - [Zone Committee](zone-committee.md)
-- [Huanan Development](huanan-development.md)
-- [Seal Office](seal-office.md)
-- [Forward Book](forward-book.md)
-- [Cadre Guesthouse](cadre-hotel.md)
-- [White Crane Association](white-crane.md)
+- [Huanan Development](huanan-development.md) (华南开发总公司)
+- [Seal Office](seal-office.md) (印鉴处)
+- [Forward Book](forward-book.md) (远期账)
+- [Cadre Guesthouse](cadre-hotel.md) (干部招待所)
+- [White Crane Association](white-crane.md) (白鹤会)
+
+## Market houses
+
+- [Market houses of Liankou](corporations.md)
+- [Nanyang Wharf](nanyang-wharf.md) (南洋码头)
+- [Jinlu Mill](jinlu-mill.md) (金鹭厂)
+- [Huaqiao Remittance](huaqiao-remittance.md) (华侨汇兑)
+- [Liankou Pour](pour-company.md) (联口浇筑)
