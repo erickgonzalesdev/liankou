@@ -22,13 +22,46 @@ The knowledge base is not a free-text corpus. It is a versioned set of relations
 
 Knowledge engineers work in the upper city. A rule change is an administrative commit. The live base is not replicated below the service band.
 
-## Inference
+## Software
 
-Engines support forward chaining over the incoming feed (new dock report fires all matching rules) and limited backward chaining for exception queries from the operations room. Conflict resolution is by specificity then by confidence score, a regime close to contemporary OPS5 practice. Parallel evaluation across rule partitions was introduced with the early-1980s hardware; the office describes this as the fifth-generation increment.
+### Rule language
 
-Scoring is not probabilistic in the later Bayesian sense. It is a certainty-factor calculus: each fired rule adjusts a running weight. The final weight is normalized and emitted as the token value. Failed tokens (weight below threshold) are logged as output events.
+Rules are written in a production-rule notation maintained by the Regulation Office. Surface syntax is a restricted IF–THEN form with typed predicates:
 
-The systems do not perform general reasoning. An engine will not invent a predicate outside its knowledge base. Queries that fall outside maintained rules return a null weight and an exception flag.
+```
+IF vessel.class = "bulk"
+   AND cargo.code IN bonded_list
+   AND history.clearance_count >= 3
+   AND declared_value < threshold(cargo.code)
+THEN clearance.weight += 0.4
+CONFIDENCE 0.85
+```
+
+Predicates are drawn from a domain schema. Free variables are not permitted in committed rules. The language is compiled to an internal relational form before loading. There is no general-purpose procedural escape in the committed base. Side computations (threshold lookups, date windows) are performed by registered functions held outside the rule text.
+
+The notation descends from early-1980s shells (OPS5-style productions, EMYCIN certainty attachment) rather than from a pure logic-programming syntax. A concurrent-logic subset, influenced by the Fifth Generation emphasis on committed-choice languages, is used only inside the inference engine for partition scheduling. Knowledge engineers do not write that subset.
+
+### Knowledge-base management
+
+Each domain knowledge base is a versioned relational store. A commit records the engineer identifier, the rule delta, the effective window, and a countersignature from the office. Live bases are copy-on-write at the partition level. Rollback is an office operation, not an engineer privilege. Diffs are retained in the crown halls and are not published below the service band.
+
+Bootleg listings are transcriptions or partial dumps of earlier revisions. They lack current confidence values and the registered-function table. They cannot be loaded into a live engine.
+
+### Inference engine
+
+The engine is a forward-chaining production system with a Rete-derived discrimination network for the common case, rebuilt for the zone’s partitioned hardware. Working memory holds the current feed records. The conflict set is ordered by specificity (number of conditions matched) then by rule confidence. Parallel firing across independent partitions was added in the early-1980s reconstruction to meet dock cycle targets. The office identifies this scheduler as the fifth-generation increment.
+
+Backward chaining is supported for operator-initiated exception queries. It is not the default path for the live feed. Certainty combination follows a MYCIN-style certainty-factor update: positive and negative factors are combined algebraically and clamped. The final normalized weight is written back to the relational store and becomes the token payload.
+
+The engine will not synthesize new predicates. A query that matches no rule returns a null weight and an exception flag. There is no learning component. Rule induction from cases was trialed in the early reconstruction and withdrawn. All rules in service are hand-authored.
+
+### Shells and tooling
+
+Knowledge engineers use an upper-city shell: a cathode editor for the rule notation, a static checker against the domain schema, and a shadow engine that replays a recorded feed against a proposed commit. The shadow run does not touch live working memory. A commit that fails the shadow comparison on a golden set of prior clearances is rejected. The shell does not run below the service band.
+
+### What is absent
+
+No general theorem prover is exposed. No natural-language front end is in service. The fifth-generation goal of a knowledge-information processing system that could accept unconstrained queries was not met. The systems accept structured records and return weights. Natural-language appeals, where they exist, are handled by clerks at the service band and do not enter the engine.
 
 ## Hardware and deployment
 

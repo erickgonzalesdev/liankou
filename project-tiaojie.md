@@ -26,7 +26,7 @@ Docks, mills, dormitory slabs, and customs desks emit structured status records 
 
 ### Inference layer
 
-Each domain expert system reads its partition, fires production rules, and writes a scored weight plus confidence. Forward chaining handles the routine feed. Backward chaining is available for operator queries. Conflict resolution and certainty-factor combination occur inside the engine. Cross-domain synthesis is reserved to the office rule set.
+Each domain expert system reads its partition, fires production rules, and writes a scored weight plus confidence. The engine is a Rete-derived forward-chaining production system. Working memory is the current feed. Conflict resolution is by specificity then confidence. Certainty factors are combined in the MYCIN manner and normalized. Parallel partition scheduling, added for dock cycle times, is the component the office attributes to fifth-generation practice. Backward chaining exists for operator exception queries only. Cross-domain synthesis is reserved to the office rule set. No rule induction is in service. All committed rules are hand-authored through the upper-city shell and its shadow-replay checker.
 
 ### Allocation layer
 
