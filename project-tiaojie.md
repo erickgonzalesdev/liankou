@@ -2,28 +2,35 @@
 
 # Project Tiaojie
 
-**Project Tiaojie** (调节工程) was the 1978 coordination project of the [Liankou Special Zone](liankou.md). It built a real-time logistics organ for the fenced port: recursive reporting from dock, mill, dormitory, and customs, reduced in an operations room, and returned as allocations. The standing institution is the [Regulation Office](regulation-office.md). The machine layer is the [expert systems](expert-systems.md).
+**Project Tiaojie** (Chinese: 调节工程; lit. “Regulation Project”) was a cybernetic coordination project commissioned in 1978 for the [Liankou Special Zone](liankou.md). It established a real-time reporting and allocation system linking docks, mills, dormitories, and customs to a central operations room. The standing institution is the [Regulation Office](regulation-office.md). The subsequent machine layer is the set of [expert systems](expert-systems.md) installed in the early 1980s.
 
-Tiaojie is the zone’s equivalent of a cybernetic coordination project. Where other such projects remained pilots, Tiaojie was pointed at an export gate that had to clear. The fifth-generation methods that elsewhere stayed in institutes were installed in the halls and left running.
+Tiaojie is the zone’s counterpart to earlier cybernetic logistics projects. Unlike programs that remained pilots, it was tasked with clearing an operating export gate. Fifth-generation methods that elsewhere stayed inside research institutes were placed in production halls and left in service.
 
-## Brief
+## History
 
-Commissioned with the 1978 opening. The brief was to coordinate the zone without returning every decision to the interior ministries. Early variety engineering was clerical. Reports came up by telex and leased line. An operations room in what became Shangcheng reduced them. Quotas, bed assignments, and customs clearances went back down.
+### Commission and clerical phase
 
-The political cover was modernization of the productive forces. The practical cover was clearance time. Each extension of the holiday used the operations room’s figures as the exhibit.
+The project was commissioned with the 1978 opening of the zone. Its brief was to coordinate port, mill, and labor allocation without returning each decision to interior ministries. Initial implementation was clerical. Reports arrived by telex and leased line. An operations room reduced them. Quotas, bunk assignments, and customs clearances were returned.
 
-## Reconstruction
+Official justification was modernization of the productive forces. Operational justification was clearance time. Published growth series used the operations room’s figures.
 
-In the early 1980s the clerical layer was replaced. Fifth-generation expert systems, built on the rule-based practice of the period and the parallel-inference aims of the Japanese program, took credit, piece-rate, bunk, water, customs, and risk off the reported sheet and onto scored weights. The knowledge bases were written by engineers inside the fence. [Lixin Precision](lixin.md) supplied the inference boards. [Liankou Development](huanan-development.md) took the lease on the halls. The project name stayed on the plaques. The office became the thing the plaques referred to.
+### Machine reconstruction
 
-The reconstruction is what “took off” means in Liankou. The same class of system that produced demonstrations elsewhere produces, here, a live weight that can fail a token, reassign a bunk, or hold a hull between one report and the next. Private courts in the upper city were never part of the brief. The lower city was. A failed token is a Tiaojie event whether or not anyone in the ribs has heard the project name.
+In the early 1980s the clerical layer was replaced by expert systems. The systems combined contemporary rule-based practice with the parallel-inference objectives associated with the Japanese Fifth Generation Computer Systems project. Knowledge bases were written inside the zone. [Lixin Precision](lixin.md) supplied inference boards. [Liankou Development](huanan-development.md) held the lease on the halls. The project name remained on official plaques. Operational control passed to the Regulation Office.
 
-## After the build
+Private commercial courts in the upper city were outside the original brief. The lower stack was inside it. A failed dock token is recorded as a Tiaojie event regardless of whether the project name is known on the landing.
 
-Tiaojie is no longer a project in the budgetary sense. It is the name of the build. The zone committee still uses it in speeches. Operators say the operations room. The lower city says the weights. The expert systems remain the scoring layer. The Regulation Office remains the organ that turns the scores into allocations. See [Regulation Office](regulation-office.md).
+## Technical description
+
+Reporting is recursive. Docks, mills, dormitory slabs, and customs desks submit status. Domain expert systems score the reports. The Regulation Office reduces the scores to allocations and issues tokens, rates, and quotas. The system does not claim general reasoning. It claims faster application of maintained rule sets than the clerical staff it replaced.
+
+## Legacy
+
+Tiaojie is no longer carried as a separate budget line. The name denotes the build. The Zone Committee continues to use it in official statements. Operators refer to the operations room. Lower-stack usage is “the weights.” The expert systems remain the scoring layer. The Regulation Office remains the allocating organ.
 
 ## See also
 
 - [Expert systems in Liankou](expert-systems.md)
 - [Regulation Office](regulation-office.md)
+- [Liankou Special Zone](liankou.md)
 - [Lixin Precision](lixin.md)
