@@ -38,5 +38,8 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 ## Armaments and armed men
 
 - [Armaments in Liankou](weapons.md)
+- [Type 77 pistol](type-77.md)
+- [QSZ-85 pistol](qsz-85.md)
+- [Regulation beam](regulation-beam.md)
 - [Zone Protection](zone-protection.md)
 - [Lower stack](lower-stack.md)
