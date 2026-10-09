@@ -2,28 +2,27 @@
 
 # Armaments in Liankou
 
-**Armaments in Liankou** are the firearms, industrial tools, and issued sidearms in circulation inside the Liankou Special Zone. The zone is not a military district. It is an export city with a wall, a permit regime, and private security that the [Zone Committee](zone-committee.md) would rather rent than raise. Legal weapons are scarce. Practical ones are not.
+**Armaments in Liankou** follow the stack. Below the service band the inventory is conventional: 1980s domestic and imported firearms, mill tools, and whatever has been taken off a body. Above the band the private houses and [Zone Protection](zone-protection.md) keep higher-end firearms and a smaller number of directed-energy weapons that do not appear on any lower-stack landing. The zone is not a military district. It is an export city that issues better arms the higher the floor.
 
-Most issued arms are short. Cadres and the zone's armed protection carry a domestic sidearm. Harbor and mill work uses pneumatic drivers, cutters, and dock tools that are not classified as weapons until they are used as one. The [White Crane Association](white-crane.md) and the private firms above the service band keep licensed long arms for site protection. Below the band the inventory is whatever has been taken off a dead man or cut from a line.
+## Lower stack
 
-## Issued sidearms
+The [lower stack](lower-stack.md) runs on 1980s firearms. Domestic pistols and revolvers, pump and break-action shotguns, and a smaller number of semi-automatic rifles circulate without a register. Most were issued to a detail, sold by a lieutenant, or taken. Industrial tools remain common: pneumatic drivers, cutters, and cable shears from the mills and the harbor. A driver is not classified as a weapon until it is used as one. There is no directed-energy piece below the band. A man who claims to have one is selling a story or a corpse's pistol.
 
-The standard sidearm is a compact domestic pistol issued to zone protection, cadre details, and the men who walk a seizure. It is not sold. A lost pistol is a report. A pistol found in the lower stack is evidence that a detail did not come back. [Liang Zhi](protagonist.md) left the freight apron with at least one of them. The committee has not published the serial.
+[Liang Zhi](protagonist.md) left the freight apron with a zone sidearm. It is the same class of pistol Protection issues on the lower ribs. The serial is not published.
 
-## Industrial tools
+## Service band
 
-The mills and the harbor are the larger arsenal. Pneumatic drivers, bolt cutters, and cable shears are stocked as tools. In the lower stack they are the common weapon. A driver that will set a rivet will also put a hole through a man at the length of a corridor. [Desheng Workshop](desheng.md) and the contract mills keep them under lock. The lock is the only control.
+The band is where the inventories meet. Zone Protection posts with the issued domestic sidearm and, on a seizure or a sentence, with rifles logged to the detail. White Crane lieutenants and the private houses move licensed long arms across the band under a firm stamp. A higher-end piece that crosses downward is supposed to be reported. Reports of that kind are rare. Reports of one coming back up are rarer.
 
-## Licensed long arms
+## Upper city
 
-Above the service band the private houses and White Crane keep shotguns and a smaller number of imported or reverse-engineered rifles for site security. These are logged against a firm, not a person. [Liankou Development](huanan-development.md) requires the log. The log is not always current. A rifle that leaves a licensed site is supposed to be reported. Reports of that kind are rare.
+Above the band the arms are logged against a firm or against Protection, not against a man. The private houses and [Liankou Development](huanan-development.md) keep imported and higher-grade firearms for site security: better rifles, suppressed pistols, and a small number of crew-served pieces that never leave a sealed gallery. Directed-energy weapons are held by Protection details on the crown and by a few firm security offices. They are short-range, power-hungry, and not issued below the service band. A lost energy weapon is a committee matter. None has been logged as lost.
 
-## Improvised and taken
-
-In the lower stack the distinction between issued and improvised collapses. Sidearms taken from zone details, tools taken from a closed mill, and the occasional long arm that a Crane lieutenant sold rather than logged all circulate. There is no register below the band. A weapon is accounted for only when someone is willing to die for it or sell it.
+The struggle session and the firing squad that sentenced Liang were carried out with conventional arms. The crown has not sent an energy weapon down after him. The order on the landings is still the sidearm and the rifle.
 
 ## See also
 
 - [Zone Protection](zone-protection.md)
+- [Lower stack](lower-stack.md)
 - [White Crane Association](white-crane.md)
 - [Liang Zhi](protagonist.md)

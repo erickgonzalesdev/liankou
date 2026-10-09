@@ -4,7 +4,7 @@
 
 **Zone Protection** (联口武装保卫) is the armed detail of the Liankou Special Zone. It is not an army. It is the men the [Zone Committee](zone-committee.md) and [Liankou Development](huanan-development.md) use when a permit is not enough. They walk seizures, guard the seal counters, and carry out sentences the committee has already announced.
 
-Protection is drawn from interior postings and from men who have already worked a site. They are issued the zone sidearm, a radio that reaches the [Regulation Office](regulation-office.md), and a permit that opens gates the lower stack does not. Their orders come on paper from the committee and in practice from the development company when a site is involved.
+Protection is drawn from interior postings and from men who have already worked a site. On the lower ribs they are issued the zone sidearm and a rifle. On the crown the same unit holds the higher-end firearms and the directed-energy pieces that do not leave the sealed floors. They carry a radio that reaches the [Regulation Office](regulation-office.md) and a permit that opens gates the lower stack does not. Their orders come on paper from the committee and in practice from the development company when a site is involved.
 
 ## The apron
 

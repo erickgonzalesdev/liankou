@@ -8,7 +8,7 @@ There is no single authority below the band. Landing bosses, small gangs, and me
 
 ## Violence
 
-Violence in the lower stack is local and constant. A landing changes hands when the men who held it are dead or have sold it. Zone Protection posts on the band and on the upper ribs. Deeper than that, a radio does not guarantee a reply. Tools from the mills are the common weapon. Sidearms appear when a detail has been killed and stripped.
+Violence in the lower stack is local and constant. A landing changes hands when the men who held it are dead or have sold it. Zone Protection posts on the band and on the upper ribs. Deeper than that, a radio does not guarantee a reply. Tools from the mills and conventional 1980s firearms are the common weapons. Sidearms and shotguns appear when a detail has been killed and stripped. Directed-energy weapons do not circulate below the band.
 
 ## Relation to the sentence
 
