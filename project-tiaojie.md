@@ -2,31 +2,47 @@
 
 # Project Tiaojie
 
-**Project Tiaojie** (Chinese: 调节工程; lit. “Regulation Project”) was a cybernetic coordination project commissioned in 1978 for the [Liankou Special Zone](liankou.md). It established a real-time reporting and allocation system linking docks, mills, dormitories, and customs to a central operations room. The standing institution is the [Regulation Office](regulation-office.md). The subsequent machine layer is the set of [expert systems](expert-systems.md) installed in the early 1980s.
+**Project Tiaojie** (Chinese: 调节工程; lit. “Regulation Project”) was the cybernetic coordination project commissioned in 1978 for the [Liankou Special Zone](liankou.md). It created a recursive reporting loop from docks, mills, dormitories, and customs to a central operations room, with allocations returned as tokens. The standing body is the [Regulation Office](regulation-office.md). From the early 1980s the reduction step has been performed by [expert systems](expert-systems.md).
 
-Tiaojie is the zone’s counterpart to earlier cybernetic logistics projects. Unlike programs that remained pilots, it was tasked with clearing an operating export gate. Fifth-generation methods that elsewhere stayed inside research institutes were placed in production halls and left in service.
+Tiaojie corresponds to earlier real-time economic coordination experiments. It differed in mandate: the system was required to clear a functioning export port rather than demonstrate feasibility. Fifth-generation inference methods that remained laboratory systems elsewhere were placed in continuous operation.
 
 ## History
 
-### Commission and clerical phase
+### Commission and clerical phase (1978–early 1980s)
 
-The project was commissioned with the 1978 opening of the zone. Its brief was to coordinate port, mill, and labor allocation without returning each decision to interior ministries. Initial implementation was clerical. Reports arrived by telex and leased line. An operations room reduced them. Quotas, bunk assignments, and customs clearances were returned.
+Commissioned at the zone’s opening. The brief required coordination of port, production, and labor allocation without per-decision referral to interior ministries. Implementation used telex and leased-line circuits. Clerks in the operations room (located in the sector that became the upper city) aggregated reports and issued quotas, bunk lists, and clearance orders. Published growth figures cited the room’s throughput.
 
-Official justification was modernization of the productive forces. Operational justification was clearance time. Published growth series used the operations room’s figures.
+### Machine reconstruction (early 1980s)
 
-### Machine reconstruction
+The clerical aggregation layer was replaced by domain expert systems. Knowledge bases were authored inside the zone. Inference hardware drew on boards supplied by [Lixin Precision](lixin.md). Hall leases were held by [Liankou Development](huanan-development.md). Parallel rule evaluation was introduced to meet cycle-time targets derived from dock turnaround. The project designation remained on plaques; day-to-day control resided with the Regulation Office.
 
-In the early 1980s the clerical layer was replaced by expert systems. The systems combined contemporary rule-based practice with the parallel-inference objectives associated with the Japanese Fifth Generation Computer Systems project. Knowledge bases were written inside the zone. [Lixin Precision](lixin.md) supplied inference boards. [Liankou Development](huanan-development.md) held the lease on the halls. The project name remained on official plaques. Operational control passed to the Regulation Office.
+The lower stack lay inside the original data perimeter. Upper-city private commercial courts did not. A failed token continues to be logged as a project event irrespective of local awareness of the name Tiaojie.
 
-Private commercial courts in the upper city were outside the original brief. The lower stack was inside it. A failed dock token is recorded as a Tiaojie event regardless of whether the project name is known on the landing.
+## System architecture
 
-## Technical description
+### Reporting layer
 
-Reporting is recursive. Docks, mills, dormitory slabs, and customs desks submit status. Domain expert systems score the reports. The Regulation Office reduces the scores to allocations and issues tokens, rates, and quotas. The system does not claim general reasoning. It claims faster application of maintained rule sets than the clerical staff it replaced.
+Docks, mills, dormitory slabs, and customs desks emit structured status records (vessel, cargo, shift, occupancy, quota consumption). Transmission is by leased line to the wall and by internal cable thereafter. Records land in a relational store partitioned by domain.
+
+### Inference layer
+
+Each domain expert system reads its partition, fires production rules, and writes a scored weight plus confidence. Forward chaining handles the routine feed. Backward chaining is available for operator queries. Conflict resolution and certainty-factor combination occur inside the engine. Cross-domain synthesis is reserved to the office rule set.
+
+### Allocation layer
+
+The Regulation Office applies a supervisory rule base to the domain weights and emits the token (clearance, shift, bunk, water). Tokens are pushed back down the same circuits. Latency target after reconstruction was intra-cycle for dock events. Exception flags (null weight, rule-gap) surface at the operations room cathode stations.
+
+### Hardware
+
+Crown halls contain the relational stores, inference units, and operator stations. Cooling and power are dedicated. No live engine is sited below the service band.
+
+## Performance and limits
+
+The system’s public metric is export clearance time. Internal metrics include rule-firing latency, token failure rate, and knowledge-base revision frequency. It does not optimize an open utility function. It applies the maintained rules. Rule gaps produce null weights rather than imputed decisions. Knowledge-engineering throughput remains the binding constraint on adding domains.
 
 ## Legacy
 
-Tiaojie is no longer carried as a separate budget line. The name denotes the build. The Zone Committee continues to use it in official statements. Operators refer to the operations room. Lower-stack usage is “the weights.” The expert systems remain the scoring layer. The Regulation Office remains the allocating organ.
+Budgetary status as a distinct project ended after the machine reconstruction. The name denotes the overall build. The Zone Committee retains it in official language. Operational reference is to the operations room; lower-stack reference is to the weights. Expert systems continue as the scoring layer; the Regulation Office continues as the allocating authority.
 
 ## See also
 
