@@ -1,14 +1,11 @@
-# Lease lexicon
+# Liankou
 
-Working encyclopedia for the Lease, a walled concession chartered in 1978.
+City article for a walled coastal special zone. Working name. The old concession title is retired.
 
-One file per term. A link is the filename, written as a Markdown link. Hierarchy is the folder.
-
-- [Lease](place/lease.md)
-- [stack](place/stack.md)
-- [service band](place/service-band.md)
-- [house](institution/house.md)
-- [zone authority](institution/zone-authority.md)
-- [Regulation Network](institution/regulation-network.md)
-
-The house is unnamed. Do not name it in a side page.
+- [Liankou](liankou.md) — main article
+- [History of Liankou](history.md)
+- [Geography of Liankou](geography.md)
+- [Government of Liankou](government.md)
+- [Economy of Liankou](economy.md)
+- [Demographics of Liankou](demographics.md)
+- [Regulation Office](regulation-office.md)
