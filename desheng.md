@@ -1,5 +1,13 @@
 # Desheng Workshop
 
-Desheng Workshop (德胜加工场) is a shed works, family-run, on rented ground. It cuts and finishes what [Lianhe Electronics](lianhe.md) will not stop the line for. Labor is 临时工, often a ticket [Weyue](weyue.md) sold after the [Regulation Office](regulation-office.md) canceled the name.
+**Desheng Workshop** (德胜加工场) is a family cutting shop in [Liankou](liankou.md), on ground rented from [Liankou Development](huanan-development.md).
 
-The workshop is the small private layer of the zone: real, numerous in life, thin on paper. [Liankou Development](huanan-development.md) can take the site back when a larger contract needs the lane.
+| | |
+| --- | --- |
+| Type | Private / family |
+| Industry | Cutting and finishing |
+| Headquarters | Rented lane, lower band |
+
+## Operations
+
+Desheng finishes work [Lianhe Electronics](lianhe.md) will not stop a line for. Labor is 临时工, often a ticket moved by [Weyue](weyue.md) after a cancellation. The site can be taken back when a larger contract needs the lane.

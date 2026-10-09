@@ -1,11 +1,21 @@
 # Liang Zhi
 
-Liang Zhi (梁崎) is the founder of [Lixin Precision](lixin.md). The [Regulation Office](regulation-office.md) no longer uses the name. His permit carries a number. He does not answer to it.
+**Liang Zhi** (梁崎) is a Liankou engineer and the founder of [Lixin Precision](lixin.md), a private instrument works seized by the zone in the mid-1980s. The [Zone Committee](zone-committee.md) charged him with an offense against the socialist road. The [Regulation Office](regulation-office.md) struck his name from the permits and issued a number. He does not answer to it.
 
-He built Lixin inside the fence in the first years of the opening, a private works in inference boards and process tools the zone did not own. For a few contract cycles he was a tour stop. The [Zone Committee](zone-committee.md) photographed the line. [Liankou Development](huanan-development.md) offered a site merger, a secretary on the floor, and a share of the work entered as a contribution to the productive forces. He took the site and not the secretary.
+## Early life
 
-They kept pushing: a devotion statement, a party desk, a seal that would move only if the invention was retitled as the zone's. He stepped over the line. The statement came back unsigned, in public, and a crate went out under the Lixin name while the stamp was held. The committee called it an offense against the socialist road.
+Liang was trained as a process engineer in the interior and sent to the coast with the 1978 opening, one of the specialists the fence was meant to use. He did not return at the end of the posting.
 
-There was no trial. The site contract ended. Halls, boards, and books were seized and returned to Liankou Development. His name was entered as a variance, then as a permit that will not renew. He was walked to the service band and left to the 下栈.
+## Lixin Precision
 
-The offices still want the signature. He takes doors, not sides. The climb is the seized line.
+He founded Lixin inside the wall in the first contract cycles. The firm designed inference boards and the tools that made them, and sold to the Regulation Office without being owned by it. For several years the line was a tour stop. Cadres photographed it. [Liankou Development](huanan-development.md) offered a site merger, a party secretary on the floor, and a share of the work booked as a contribution to the productive forces. Liang took the lease and refused the secretary.
+
+## Defiance and seizure
+
+Pressure continued: a devotion statement, a party desk, a seal withheld until the invention was retitled as the zone's. Liang returned the statement unsigned, in public, and dispatched a crate under the Lixin name while the stamp was held. The committee filed both acts as defiance.
+
+There was no trial. The site contract was ended. Halls, stock, and books were seized and vested in Liankou Development. Liang was walked to the service band and left to the lower stack on a permit that does not renew.
+
+## After the seizure
+
+He remains in the 下栈. Offices, and the [White Crane Association](white-crane.md), have offered reinstatement in exchange for the signature. He has not signed. Lixin no longer appears on the register. The line still runs, under another name, in halls he is not cleared to enter.

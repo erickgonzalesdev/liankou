@@ -1,7 +1,15 @@
 # Lianhe Electronics
 
-Lianhe Electronics (联和电子有限公司) is the zone's foreign plant, a Hong Kong invested assembly works on a site leased from [Liankou Development](huanan-development.md). The plaque says 合资. The line is export-processing: boards in, crated terminals out, foreign exchange retained inside the fence.
+**Lianhe Electronics Ltd.** (联和电子有限公司) is a Hong Kong invested assembly company and the largest foreign plant in [Liankou](liankou.md). It leases its site from [Liankou Development](huanan-development.md).
 
-Lianhe does not set weights. It buys hall time and spares, and ships through the development company's seal. The [Regulation Office](regulation-office.md) assigns the bunks for its 临时工. Lianhe assigns the rate. When a name drops off the feed, the line does not stop. The next permit is already at the gate.
+| | |
+| --- | --- |
+| Type | Joint venture / foreign-invested |
+| Industry | Export-processing electronics |
+| Founded | Early 1980s |
+| Headquarters | Leased shed, Liankou |
+| Owners | Hong Kong line; zone site lessor |
 
-This is the export engine. The shed families sell into it or around it. They do not replace it.
+## Operations
+
+Boards in, crated terminals out, foreign exchange retained inside the fence. Lianhe does not set weights. It buys hall time and ships through the development company's seal. The [Regulation Office](regulation-office.md) assigns bunks for its 临时工. Lianhe assigns the rate. It survived the Lixin seizure by never claiming an invention as its own.

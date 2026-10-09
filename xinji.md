@@ -1,5 +1,13 @@
 # Xinji Repair
 
-Xinji (新纪修配) repairs boards and rebuilds cathode tubes. It is a bench, not a plant. [Lianhe Electronics](lianhe.md) is the plant. Xinji sells spares to the [Regulation Office](regulation-office.md) and, with the header torn off, to the ribs.
+**Xinji Repair** (新纪修配) is a bench repair shop in [Liankou](liankou.md). It is not a plant.
 
-The live weights are not Xinji's to set.
+| | |
+| --- | --- |
+| Type | Private |
+| Industry | Electronics repair |
+| Headquarters | Service band bench |
+
+## Operations
+
+Xinji repairs boards and rebuilds cathode tubes. It sells spares to the [Regulation Office](regulation-office.md) and services [Lixin Precision](lixin.md) boards with the header removed. It does not set weights.

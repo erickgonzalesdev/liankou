@@ -1,5 +1,13 @@
 # Weyue
 
-Weyue (伟裕) is not a holding company. It is a ticket desk on the service band. It buys shift tickets low after a cancellation and sells the hour to a shed that still needs the body. The [Zone Committee](zone-committee.md) calls it speculation. The band calls it how a shift gets filled.
+**Weyue** (伟裕) is a ticket desk on the service band of [Liankou](liankou.md). It is not a holding company.
 
-This is the informal edge. Weyue prints nothing. A 许可证 already existed. Weyue only moves it.
+| | |
+| --- | --- |
+| Type | Informal private |
+| Industry | Shift-ticket brokerage |
+| Headquarters | Service band |
+
+## Operations
+
+Weyue buys canceled shift tickets low and sells the hour to a shed that still needs the body. It prints nothing. The [Zone Committee](zone-committee.md) classifies the desk as speculation.

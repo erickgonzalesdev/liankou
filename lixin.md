@@ -1,9 +1,27 @@
 # Lixin Precision
 
-Lixin Precision (立新精密) was a private works in [Liankou](liankou.md), founded by [Liang Zhi](protagonist.md). It designed inference boards and the process tools that made them, and sold to the [Regulation Office](regulation-office.md) without being owned by it. The name was his. 立新, establish the new, was read on tours as a slogan of the opening. He did not mean it as one.
+**Lixin Precision** (立新精密) was a private instrument company in [Liankou](liankou.md), founded by [Liang Zhi](protagonist.md). It designed inference boards and process tools for the [Regulation Office](regulation-office.md). The firm was seized in the mid-1980s and struck from the register. Its plant now operates under [Liankou Development](huanan-development.md).
 
-The firm rented a site from [Liankou Development](huanan-development.md) and hired 临时工 by its own standard. It refused a party secretary on the floor. When the seal slowed, Lixin shipped a crate under its own name. That shipment, and the unsigned devotion returned in public, were the acts the [Zone Committee](zone-committee.md) filed as defiance.
+| | |
+| --- | --- |
+| Type | Private |
+| Industry | Instruments, inference hardware |
+| Founded | Early opening, c. 1979 |
+| Founder | Liang Zhi |
+| Defunct | Mid-1980s |
+| Fate | Seized; assets vested in Liankou Development |
+| Headquarters | Shangcheng site, Liankou |
 
-Seizure was the sentence. The site contract was ended. Halls, stock, and books were taken into the development company and retitled as zone property. The Forward Book entered the seizure as a recovered contribution. Buyers were told to deal with the company. [White Crane](white-crane.md) bid on the loose crates. [Xinji Repair](xinji.md) still services boards with the Lixin header torn off.
+## History
 
-Lixin no longer exists on the register. The line still runs, under another name, in halls Liang Zhi is not cleared to enter.
+Lixin rented its site from the development company and hired 临时工 on its own standard. It refused a party secretary. When export stamps slowed, the firm shipped a crate under its own name. That shipment, and an unsigned devotion returned in public by the founder, were the acts cited at seizure.
+
+The site contract was ended without a trial. Halls, stock, and books were retitled as zone property. The company's ledger entered the seizure as a recovered contribution.
+
+## Products
+
+Inference boards and the jigs and process tools used to build them. The Regulation Office was the principal customer and not a shareholder. Boards with the Lixin header still circulate. [Xinji Repair](xinji.md) services them with the header removed.
+
+## Aftermath
+
+Buyers were instructed to deal with Liankou Development. [White Crane](white-crane.md) bid on loose crates. The line continues in the seized halls under a zone name.
