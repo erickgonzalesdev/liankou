@@ -11,7 +11,11 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 - [Regulation Office](regulation-office.md) (调节办公室)
 - [Project Tiaojie](project-tiaojie.md) (调节工程)
 - [Expert systems in Liankou](expert-systems.md)
-- [The filed man](protagonist.md)
+
+## Founder
+
+- [Liang Zhi](protagonist.md) (梁崎)
+- [Lixin Precision](lixin.md) (立新精密)
 
 ## Zone structure
 

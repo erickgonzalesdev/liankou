@@ -1,9 +1,11 @@
-# The filed man
+# Liang Zhi
 
-He built a private works inside the fence. The opening had asked for it. For a few contract cycles the line was a tour stop: boards the [Regulation Office](regulation-office.md) wanted and did not own. The [Zone Committee](zone-committee.md) photographed him. [Liankou Development](huanan-development.md) offered a site merger, a secretary on the floor, and a share of the work entered in the company's book as a contribution to the productive forces. He took the site and not the secretary.
+Liang Zhi (梁崎) is the founder of [Lixin Precision](lixin.md). The [Regulation Office](regulation-office.md) no longer uses the name. His permit carries a number. He does not answer to it.
 
-They kept pushing. A devotion statement. A party desk. A seal that would move only if the invention was retitled as the zone's. He stepped over the line. Not a program. An act: the statement unsigned and returned in public, or a crate sent out under his own name when the stamp was held. The administration called it an offense against the socialist road, a specialist who had forgotten whom the specialist serves.
+He built Lixin inside the fence in the first years of the opening, a private works in inference boards and process tools the zone did not own. For a few contract cycles he was a tour stop. The [Zone Committee](zone-committee.md) photographed the line. [Liankou Development](huanan-development.md) offered a site merger, a secretary on the floor, and a share of the work entered as a contribution to the productive forces. He took the site and not the secretary.
 
-The response was not a trial. The site contract ended. The halls, the boards, and the books were seized and "returned" to Liankou Development. His name was entered as a variance, then as a permit that will not renew. He was walked to the service band and left to the 下栈.
+They kept pushing: a devotion statement, a party desk, a seal that would move only if the invention was retitled as the zone's. He stepped over the line. The statement came back unsigned, in public, and a crate went out under the Lixin name while the stamp was held. The committee called it an offense against the socialist road.
 
-What the offices still want is the reason, or the signature they did not get. A cadre, a clerk of the weights, a [White Crane](white-crane.md) lieutenant bidding on his old crates, each offers a side in exchange. He does not take the side. The climb is the seized line. The number on the permit still opens and closes the doors.
+There was no trial. The site contract ended. Halls, boards, and books were seized and returned to Liankou Development. His name was entered as a variance, then as a permit that will not renew. He was walked to the service band and left to the 下栈.
+
+The offices still want the signature. He takes doors, not sides. The climb is the seized line.
