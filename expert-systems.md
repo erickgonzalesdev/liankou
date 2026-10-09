@@ -91,7 +91,23 @@ A temporary-worker record arrives from a mill: skill code matched to an open shi
 
 A mill reports a machine fault that idles one line. The labor feed updates. Forward chaining re-evaluates open shifts against the new idle flag. A rule with higher specificity than the original assignment fires. Confidence is sufficient. The office emits a revised token canceling four shift tickets and opening two on an adjacent line. The change appears on the next horn. Workers who do not hear the horn discover the cancellation at the gate. The system does not push a spoken notice below the band.
 
-### What the examples exclude
+#### Production scheduling
+
+A contract mill reports line status at the start of the shift: three lines idle for tooling, two running, one waiting on a bonded component. The production engine holds rules for order priority, tooling compatibility, and component availability. Forward chaining matches open export orders against the live line state. Highest-specificity rule set assigns the two running lines to a sealed electronics order and holds the tooling-idle lines for a lower-priority garment lot. Component-wait line receives a null production weight and an exception flag. The office emits revised piece-rate tokens and a material-release token for the electronics order. The garment lot is not canceled. It is deferred. The deferral appears as a changed weight, not as a new order.
+
+### Order fulfillment and export packing
+
+An export order reaches the packing rule base when its production weight crosses the completion threshold. Predicates include crate count, seal status, customs pre-clearance, and berth window. Matching rules assign a packing bay, a seal sequence, and a lighter or truck token. If the berth window has already closed, a negative factor drops the fulfillment weight. The office withholds the loading token and raises an exception. The goods remain in the bonded cage. Fulfillment is not complete until the loading token is emitted. A crate that leaves without one is logged as an untokened movement, outside the model.
+
+### Piece-rate and labor fulfillment
+
+Piece-rate is a service the system fulfills for the mill and withholds from the worker until the count clears. A line reports completed units. The labor-production rule base matches units against the shift’s skill code and the order’s rate card. Positive factors raise the worker’s credit weight. The office emits a credit token only when the weight clears the pay threshold and the bunk/water flags are not blocking. A worker can finish a shift, generate units, and still receive no credit token if a resource rule fires negative. The mill’s fulfillment of the order and the worker’s fulfillment of the wage are separate weights. They do not automatically coincide.
+
+### Component and service allocation
+
+Bonded components and crown services (power window, cooling, inspection slot) are scored by their own rule bases. A request for an inspection slot on a completed electronics crate fires against inspector availability and the order’s priority. A match emits a slot token. No match emits a wait weight. The crate cannot advance to the packing rule base until the inspection token exists. Service fulfillment is therefore a gate, not a side record. The same pattern applies to power windows for a mill line: no window token, no production weight above idle.
+
+## What the examples exclude
 
 None of the cycles accepts free-text input. None invents a rule to cover a missing predicate. A cargo code absent from the schema produces a null weight and an exception, not an estimated clearance. Knowledge engineers may later add the predicate. Until the commit and countersignature, the null stands.
 
