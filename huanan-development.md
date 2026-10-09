@@ -1,9 +1,9 @@
 # Huanan Development
 
-Huanan Development Corporation (华南开发总公司) is the chartered holder of [Liankou](liankou.md). The charter is older than the special zone. It grants the export seals, the inference halls, private jurisdiction in Shangcheng, and the right to keep a company guard. Huanan does not call itself a government. The charter does not require it to.
+Huanan Development Corporation (华南开发总公司) is the chartered company of [Liankou](liankou.md). The charter is older than the special zone. It grants the only export seal, the inference halls, private jurisdiction in Shangcheng, the charter berths, and a company guard. There is no second gate.
 
-The corporation trades in its own name. Shipments move under its seal, on its docks, through halls it leases back to the [Regulation Office](regulation-office.md). A landing, a bunk, and a water pipe below the service band are concession stock. Rent is collected. Maintenance is not part of the charter. Labor is recruited under temporary permits the [Zone Committee](zone-committee.md) prints and Huanan does not honor as residence.
+Huanan keeps the Forward Book (远期账) inside the house. A clearance, a bunk, or a permit not yet real can be entered as present growth. The [Zone Committee](zone-committee.md) reads that series on tour. Side ledgers hold the losses. The main series rises.
 
-Its visible arms are the [Seal Office](seal-office.md), the account of the [Cadre Guesthouse](cadre-hotel.md), and the [Forward Book](forward-book.md), which enters unshipped clearances as present growth. House security stands at the service band and does not patrol the ribs. The [White Crane Association](white-crane.md) is retained, not owned, to keep manifests inside tolerance.
+The corporation does not own the private houses. [Shunfa Trading](shunfa.md), [Xinji Electronics](xinji.md), [Weyue Holdings](weyue.md), [Minfa Steam](minfa.md), and [Desheng Mill](desheng.md) rent the seal, the berth, or the hall, and keep their own books. Huanan slows a seal when a merger is refused. It does not run their floors.
 
-Private courts above the band answer to the corporation. Appeals from below the band do not. A failed allocation is a variance. A person attached to it is outside the charter.
+House security stands at the service band and does not patrol the ribs. The [White Crane Association](white-crane.md) is retained, not owned. Private courts above the band answer to the corporation. A failed allocation is a variance. A person attached to it is outside the charter.
