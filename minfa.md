@@ -1,3 +1,5 @@
+![plate](plates/minfa.png)
+
 # Minfa Lighters
 
 **Minfa** (闽发驳船) is a small lighterage outfit in [Liankou](liankou.md). It does not hold a berth.

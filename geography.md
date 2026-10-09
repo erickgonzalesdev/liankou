@@ -1,3 +1,5 @@
+![plate](plates/geography.png)
+
 # Geography of Liankou
 
 Liankou is a walled coastal site. The wall keeps the experiment from spilling inland and keeps inland rules from applying once inside. Beyond it the city is a megastructure.

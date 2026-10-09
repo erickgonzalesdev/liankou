@@ -1,3 +1,5 @@
+![plate](plates/government.png)
+
 # Government of Liankou
 
 The [Zone Committee](zone-committee.md) is the municipal authority of the special zone. It posts targets, issues 许可证, withholds 户口, and tours the sheds. Cadres sleep at the [Cadre Guesthouse](cadre-hotel.md).

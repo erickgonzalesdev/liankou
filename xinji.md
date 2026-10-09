@@ -1,3 +1,5 @@
+![plate](plates/xinji.png)
+
 # Xinji Repair
 
 **Xinji Repair** (新纪修配) is a bench repair shop in [Liankou](liankou.md). It is not a plant.

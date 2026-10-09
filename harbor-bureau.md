@@ -1,3 +1,5 @@
+![plate](plates/harbor-bureau.png)
+
 # Liankou Harbor Bureau
 
 The **Liankou Harbor Bureau** (联口港务局) is the state port authority of [Liankou](liankou.md). It operates berths and cranes built by [Liankou Development](huanan-development.md).

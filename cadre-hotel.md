@@ -1,3 +1,5 @@
+![plate](plates/cadre-hotel.png)
+
 # Cadre Guesthouse
 
 The Cadre Guesthouse (干部招待所) is the building in Shangcheng where officials from the interior sleep, sign, and leave. It is not a hotel in the commercial sense. Rooms are allocated. The books are a [Zone Committee](zone-committee.md) courtesy and a [Huanan Development](huanan-development.md) account.

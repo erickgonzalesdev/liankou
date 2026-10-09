@@ -1,3 +1,5 @@
+![plate](plates/regulation-office.png)
+
 # Regulation Office
 
 The Regulation Office (调节办公室) is the coordination organ of [Liankou](liankou.md), and the standing result of [Project Tiaojie](project-tiaojie.md). It was commissioned in 1978 as a cybernetic logistics office, then rebuilt around [expert systems](expert-systems.md). Mills, gates, dormitory slabs, and customs desks report upward. The operations room in Shangcheng reduces that variety to allocations and sends them back down as tokens, rates, and quotas.

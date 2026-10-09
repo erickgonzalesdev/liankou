@@ -1,3 +1,5 @@
+![plate](plates/liankou.png)
+
 # Liankou
 
 **Liankou** (联口市), formally the **Liankou Special Zone** (联口特别区), is a walled coastal city and special economic zone on the south China coast, opened in 1978. It was designated an experimental port for outside capital, export manufacture, and a cybernetic coordination system, on a holiday from the interior plan. The holiday was extended with each published growth series. By the mid-1980s the wall was still the municipal boundary, and the interior of it had become a single occupied megastructure the size of a metro.

@@ -1,3 +1,5 @@
+![plate](plates/weyue.png)
+
 # Weyue
 
 **Weyue** (伟裕) is a ticket desk on the service band of [Liankou](liankou.md). It is not a holding company.

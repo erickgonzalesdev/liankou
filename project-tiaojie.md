@@ -1,3 +1,5 @@
+![plate](plates/project-tiaojie.png)
+
 # Project Tiaojie
 
 **Project Tiaojie** (调节工程) was the 1978 coordination project of the [Liankou Special Zone](liankou.md). It built a real-time logistics organ for the fenced port: recursive reporting from dock, mill, dormitory, and customs, reduced in an operations room, and returned as allocations. The standing institution is the [Regulation Office](regulation-office.md). The later machine layer is the [expert systems](expert-systems.md).

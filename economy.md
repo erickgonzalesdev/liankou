@@ -1,3 +1,5 @@
+![plate](plates/economy.png)
+
 # Economy of Liankou
 
 Liankou is an export-processing zone on a dual track, 双轨制. Foreign exchange earned inside the fence can be retained. A 许可证 lets a worker in for a shift. A 户口 does not follow.

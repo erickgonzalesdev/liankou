@@ -1,3 +1,5 @@
+![plate](plates/demographics.png)
+
 # Demographics of Liankou
 
 No stable public figure separates residents from permitted workers. Shangcheng stakeholders, corporation engineers, operations-room staff, and syndicate partners are few and legally durable. The mills run on interior labor that is legal for a shift and temporary for years.

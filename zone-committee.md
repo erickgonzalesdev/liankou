@@ -1,3 +1,5 @@
+![plate](plates/zone-committee.png)
+
 # Zone Committee
 
 The Liankou Zone Committee is the political administration of the special zone. It posts targets, tours the atria, and speaks the language of the opening: productive forces, regulation through the market, a temporary exception. It describes the lower city as transitional housing and the [Regulation Office](regulation-office.md) as a modernization of planning.

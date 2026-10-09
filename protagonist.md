@@ -1,3 +1,5 @@
+![plate](plates/protagonist.png)
+
 # Liang Zhi
 
 **Liang Zhi** (梁崎) is a Liankou engineer and the founder of [Lixin Precision](lixin.md), a private instrument works seized by the zone in the mid-1980s. The [Zone Committee](zone-committee.md) charged him with an offense against the socialist road, then published him as an enemy of the people. The [Regulation Office](regulation-office.md) struck his name from the permits and issued a number. He does not answer to it. The posters still use the name.

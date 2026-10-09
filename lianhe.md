@@ -1,3 +1,5 @@
+![plate](plates/lianhe.png)
+
 # Lianhe Electronics
 
 **Lianhe Electronics Ltd.** (联和电子有限公司) is a Hong Kong invested assembly company and the largest foreign plant in [Liankou](liankou.md). It leases its site from [Liankou Development](huanan-development.md).

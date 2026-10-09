@@ -1,3 +1,5 @@
+![plate](plates/history.png)
+
 # History of Liankou
 
 Liankou was cut in 1978 from a coastal port and a strip of bonded ground, as a special zone in the opening. The interior would remain under the plan. The fenced coast would deal, invite outside and overseas Chinese capital, and retain what it earned, so long as the exception stayed inside the wall and could still be described as socialism developing the forces of production.

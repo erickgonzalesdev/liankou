@@ -1,3 +1,5 @@
+![plate](plates/corporations.png)
+
 # Houses of Liankou
 
 Named in the manner of a special zone: a development company, a harbor bureau, a foreign plant, and a thin private edge.

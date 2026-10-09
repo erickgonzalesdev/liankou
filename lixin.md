@@ -1,3 +1,5 @@
+![plate](plates/lixin.png)
+
 # Lixin Precision
 
 **Lixin Precision** (立新精密) was a private instrument company in [Liankou](liankou.md), founded by [Liang Zhi](protagonist.md). It designed inference boards and process tools for the [Regulation Office](regulation-office.md). The firm was seized in the mid-1980s and struck from the register. Its plant now operates under [Liankou Development](huanan-development.md).

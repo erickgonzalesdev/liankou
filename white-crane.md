@@ -1,3 +1,5 @@
+![plate](plates/white-crane.png)
+
 # White Crane Association
 
 The White Crane Association (白鹤会) is the licensed syndicate of Shangcheng. It rents legitimacy, customs hours, and protection that [Huanan Development](huanan-development.md) would rather buy than build. Its paper is in order. Its work is the letterhead crime of the upper city.

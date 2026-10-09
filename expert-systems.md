@@ -1,3 +1,5 @@
+![plate](plates/expert-systems.png)
+
 # Expert systems in Liankou
 
 Expert systems are the inference machines of the [Liankou Special Zone](liankou.md). They score credit, customs, labor, bunks, water, and export risk, and return the score as a token. The zone committee describes them as a modernization of planning. [Huanan Development](government.md) leases the halls. The lower city calls the outputs the weights.

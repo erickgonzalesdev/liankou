@@ -1,3 +1,5 @@
+![plate](plates/huanan-development.png)
+
 # Liankou Development Company
 
 **Liankou Development Company** (联口工业发展总公司) is the state development corporation of the [Liankou Special Zone](liankou.md). It builds and leases sites inside the wall, holds the zone's only export seal, and receives firms seized by the [Zone Committee](zone-committee.md).

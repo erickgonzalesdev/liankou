@@ -1,3 +1,5 @@
+![plate](plates/shunfa.png)
+
 # Shunfa Trading
 
 **Shunfa Trading** (顺发贸易) is a small overseas-Chinese trading house in [Liankou](liankou.md). It rents a desk, buys odd lots from shed workshops, and waits on stamps from [Liankou Development](huanan-development.md).
