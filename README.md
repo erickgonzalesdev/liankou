@@ -9,3 +9,5 @@ City article for a walled coastal special zone. Working name. The old concession
 - [Economy of Liankou](economy.md)
 - [Demographics of Liankou](demographics.md)
 - [Regulation Office](regulation-office.md)
+- [Project Tiaojie](project-tiaojie.md)
+- [Expert systems in Liankou](expert-systems.md)

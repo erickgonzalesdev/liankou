@@ -14,7 +14,7 @@ The name joins *lian* (联, linked, connected) and *kou* (口, mouth, port). Off
 
 See [History of Liankou](history.md).
 
-Opened in 1978 as one of the coastal experiments. Early construction was a port, a bond shed, and a strip of contract mills. The [Regulation Office](regulation-office.md) was commissioned the same year as a planning organ. Expert systems replaced the first telex staff in the early 1980s. Joint-venture hotels and sealed galleries followed the machines. Dormitory slabs were poured between contract cycles. The zone committee still describes the lower city as transitional housing.
+Opened in 1978 as one of the coastal experiments. Early construction was a port, a bond shed, and a strip of contract mills. [Project Tiaojie](project-tiaojie.md) was commissioned the same year. Its standing organ is the [Regulation Office](regulation-office.md). Expert systems replaced the first telex staff in the early 1980s. Joint-venture hotels and sealed galleries followed the machines. Dormitory slabs were poured between contract cycles. The zone committee still describes the lower city as transitional housing.
 
 ## Geography
 
@@ -42,7 +42,7 @@ No stable public figure separates residents from permitted workers. Shangcheng s
 
 ## Infrastructure
 
-The Regulation Office is the municipal nervous system. See [Regulation Office](regulation-office.md). Power, water, and dock tokens are allocations. Cathode boards in the lower city are often rebuilt inference tubes. The phosphor matches. The authority does not.
+The Regulation Office is the municipal nervous system. See [Regulation Office](regulation-office.md) and [Expert systems in Liankou](expert-systems.md). Power, water, and dock tokens are allocations. Cathode boards in the lower city are often rebuilt inference tubes. The phosphor matches. The authority does not.
 
 ## Crime
 
