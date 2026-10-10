@@ -2,137 +2,82 @@
 
 # Expert systems in Liankou
 
-**Expert systems in Liankou** are knowledge-based systems operated by the [Regulation Office](regulation-office.md) to score and allocate resources inside the [Liankou Special Zone](liankou.md). Each system comprises a domain knowledge base of production rules and an inference engine that applies those rules to live relational feeds from docks, mills, dormitories, and customs. The output is a weighted token. The systems form the machine layer of [Project Tiaojie](project-tiaojie.md).
+**Expert systems in Liankou** are the scoring machines of the [Regulation Office](regulation-office.md). They hold the zone’s operating knowledge as executable structure and apply that structure, continuously, to live feeds from docks, mills, dormitories, and customs. The output is a weighted token. The systems are the machine layer of [Project Tiaojie](project-tiaojie.md).
 
 The Zone Committee classifies the installation as a modernization of planning under regulation by the market. Operators call the crown halls the operations room. In the lower stack the outputs are called the weights.
 
 ## Background
 
-Late-1970s and early-1980s expert systems encoded specialist procedures as IF–THEN production rules and executed them with a separate inference engine. Shells such as EMYCIN and OPS5 separated the knowledge base from the control regime (forward chaining, backward chaining, or mixed). Certainty factors or equivalent scoring attached to rules allowed ranked rather than binary conclusions. The principal bottleneck was knowledge engineering: extracting and maintaining the rules.
+The first Regulation Office links were telex. Clerks reduced dock and mill reports by hand and sent allocations back down. In the early 1980s that staff was replaced by machines that could hold a specialist procedure as structure and evaluate it against a feed faster than the specialist could. The zone built the machines inside the fence. [Lixin Precision](lixin.md) supplied the inference boards until the firm was seized.
 
-The Japanese Fifth Generation Computer Systems project (ICOT, 1982–1992) proposed machines oriented to knowledge information processing rather than numerical calculation: logic programming (Prolog and later concurrent variants), parallel inference, and large relational knowledge bases. Most results remained research prototypes.
+The design problem was not storage. It was keeping a changing body of operating knowledge both editable by engineers and evaluable at dock speed. The solution in service is a single substrate: knowledge is represented as symbolic structure that engineers manipulate interactively, and that same structure is lowered, without reinterpretation, into a parallel evaluation network that scores the live feed.
 
-Liankou adopted the production-rule architecture and the fifth-generation emphasis on inference over calculation, without joining an external institute. A second lineage is the LISP-machine practice of the same decade: single-user symbolic workstations, tagged architectures, interactive environments, and LISP as the implementation language for both the shell and the inference runtime. The zone did not import the commercial LISP machines. It built a reduced symbolic layer on its own boards and kept the LISP surface for the knowledge engineers. Initial Regulation Office links were telex. Clerks reduced reports by hand. Machine replacement occurred in the early 1980s. Inference boards were supplied by [Lixin Precision](lixin.md) until the firm’s seizure.
+## Representation
 
-## Knowledge representation
+Operating knowledge is held as nested symbolic structure, not as flat text and not as a separate procedural program. A clearance rule, a bunk constraint, a piece-rate card, and a packing sequence are all list structure with typed predicates, numeric weights, and an attached confidence. Engineers read and rewrite that structure directly. The editor is itself a program walking the same representation. A proposed change is a delta in the structure. There is no translation step in which a specialist’s intent is re-keyed into another notation.
 
-Rules are production rules stored in relational tables. A typical customs rule takes the form: if vessel class, cargo code, prior clearance history, and declared value satisfy a conjunction, then assign clearance weight *w* with confidence *c*. Labor rules bind shift, skill code, bunk occupancy, and water quota. Rules carry maintenance metadata: authoring engineer, revision, and effective window.
+Committed structure is versioned. A commit carries the engineer identifier, the delta, an effective window, and an office countersignature. Live partitions are copy-on-write. Rollback is an office operation. The lower stack never receives the structure. It receives only the token that structure emits.
 
-The knowledge base is not a free-text corpus. It is a versioned set of relations. Domain boundaries are strict. A customs knowledge base contains no bunk predicates. Cross-domain reduction is performed only at the Regulation Office layer, which reads the scored outputs and applies a second, smaller rule set to emit the allocation token.
+Domain boundaries are enforced in the representation itself. A customs partition contains no bunk predicates. Cross-domain reduction is a separate, smaller structure applied by the office after the domain scores exist. The system does not invent predicates. A feed record that matches nothing in the committed structure produces a null weight and an exception flag.
 
-Knowledge engineers work in the upper city. A rule change is an administrative commit. The live base is not replicated below the service band.
+## Evaluation
 
-## Software
+Once a partition is committed it is lowered into an evaluation network. The network discriminates incoming records against the structure’s conditions and maintains a conflict set. Ordering is by specificity, then by confidence. Matching partitions evaluate in parallel. The office identifies the parallel scheduler as the change that brought cycle time inside a dock turnaround.
 
-### Rule language
+Confidence is not a later probabilistic attachment. It is part of the structure. Positive and negative factors combine algebraically as rules match, clamp, and normalize to the weight that becomes the token. Forward evaluation is the default path for the feed. Engineers and operators can run a query backward through the same structure when an exception must be explained. That query does not alter the live network.
 
-Rules are written in a production-rule notation maintained by the Regulation Office. Surface syntax is a restricted IF–THEN form with typed predicates:
+There is no induction. Early trials that attempted to propose new structure from cases were withdrawn. Every predicate in service was written by an engineer and countersigned. The system applies the structure it has. It does not extend it.
 
-```
-IF vessel.class = "bulk"
-   AND cargo.code IN bonded_list
-   AND history.clearance_count >= 3
-   AND declared_value < threshold(cargo.code)
-THEN clearance.weight += 0.4
-CONFIDENCE 0.85
-```
+## The workstation and the hall
 
-Predicates are drawn from a domain schema. Free variables are not permitted in committed rules. The language is compiled to an internal relational form before loading. There is no general-purpose procedural escape in the committed base. Side computations (threshold lookups, date windows) are performed by registered functions held outside the rule text.
+Knowledge engineers work at single-user symbolic workstations in the crown halls: local tagged memory, a cathode, and an interactive listener onto the structure. Garbage collection and open evaluation run on the workstation. They do not run on the token path. The live engines in the halls hold the lowered network and the relational feed store. Operators at the operations-room cathodes see weights, exception flags, and throughput. They do not see the listener. They cannot rewrite structure from the floor. They can open a backward query, flag a gap, or request a commit.
 
-The notation descends from early-1980s shells (OPS5-style productions, EMYCIN certainty attachment) rather than from a pure logic-programming syntax. A concurrent-logic subset, influenced by the Fifth Generation emphasis on committed-choice languages, is used only inside the inference engine for partition scheduling. Knowledge engineers do not write that subset.
+A shell on the workstation replays a recorded feed against a proposed delta in a shadow network. If the shadow diverges from a retained set of prior clearances, the commit is rejected. The shadow does not touch live working memory. The same representation therefore serves three states without conversion: editable structure on the workstation, shadow evaluation against a recorded feed, and lowered parallel evaluation against the live feed.
 
-### LISP substrate
-
-The rule language is compiled to an internal relational form, but the compiler, the shell, and the inference runtime are implemented in a zone dialect of LISP. Knowledge engineers work on single-user symbolic workstations in the upper-city halls: cathode, local tagged memory, and an interactive listener. Rule text is S-expression data. The editor is a LISP program operating on that data. A commit is a list structure that the static checker walks before it is lowered to the relational store.
-
-The live engines do not expose the listener. Once a rule partition is loaded, evaluation is the Rete network and the certainty-factor update, not open LISP evaluation. The LISP layer remains available to the shell and to the shadow-replay checker. Garbage collection runs on the workstations. It does not run on the live token path. Operators in the operations room see weights and flags. They do not see the listener.
-
-This is the LISP-machine increment that coexists with the fifth-generation one. Parallel partition scheduling is attributed to the fifth-generation reconstruction. The interactive symbolic environment and the S-expression rule representation are attributed to LISP-machine practice. Both are in service. Neither is published below the service band.
-
-### Knowledge-base management
-
-Each domain knowledge base is a versioned relational store. A commit records the engineer identifier, the rule delta, the effective window, and a countersignature from the office. Live bases are copy-on-write at the partition level. Rollback is an office operation, not an engineer privilege. Diffs are retained in the crown halls and are not published below the service band.
-
-Bootleg listings are transcriptions or partial dumps of earlier revisions. They lack current confidence values and the registered-function table. They cannot be loaded into a live engine.
-
-### Inference engine
-
-The engine is a forward-chaining production system with a Rete-derived discrimination network for the common case, rebuilt for the zone’s partitioned hardware. Working memory holds the current feed records. The conflict set is ordered by specificity (number of conditions matched) then by rule confidence. Parallel firing across independent partitions was added in the early-1980s reconstruction to meet dock cycle targets. The office identifies this scheduler as the fifth-generation increment.
-
-Backward chaining is supported for operator-initiated exception queries. It is not the default path for the live feed. Certainty combination follows a MYCIN-style certainty-factor update: positive and negative factors are combined algebraically and clamped. The final normalized weight is written back to the relational store and becomes the token payload.
-
-The engine will not synthesize new predicates. A query that matches no rule returns a null weight and an exception flag. There is no learning component. Rule induction from cases was trialed in the early reconstruction and withdrawn. All rules in service are hand-authored.
-
-### Shells and tooling
-
-Knowledge engineers use an upper-city shell: a cathode editor for the rule notation, a static checker against the domain schema, and a shadow engine that replays a recorded feed against a proposed commit. The shadow run does not touch live working memory. A commit that fails the shadow comparison on a golden set of prior clearances is rejected. The shell does not run below the service band.
-
-### What is absent
-
-No general theorem prover is exposed. No natural-language front end is in service. The fifth-generation goal of a knowledge-information processing system that could accept unconstrained queries was not met. The systems accept structured records and return weights. Natural-language appeals, where they exist, are handled by clerks at the service band and do not enter the engine.
-
-## Hardware and deployment
-
-Live knowledge bases and engines occupy climate-controlled halls in the finished crown. Inference hardware uses zone-maintained boards derived from the Lixin designs: multiple inference units over a shared relational store, with cathode monitoring stations for the operators. Power and cooling are crown services. The lower stack receives only the token stream.
-
-Feeds arrive by leased line and, inside the wall, by dedicated cable drops. Update latency for a dock token is measured in minutes, not batch days. A weight change can reassign a shift or hold a hull inside a single reporting cycle.
-
-Retired cathode tubes are rebuilt into display boards in the lower city. These reproduce phosphor characteristics. They do not execute live rules.
+Feeds arrive by leased line and, inside the wall, by cable. Latency from a dock report to a token is measured in minutes. A weight change can reassign a shift or hold a hull inside one reporting cycle. Retired cathode tubes from the halls are rebuilt into display boards in the lower city. They reproduce phosphor. They do not hold structure.
 
 ## Operational examples
 
-The following are representative live cycles. Figures are illustrative of the rule form in service. They are not a published operations log.
+Figures below illustrate the structure in service. They are not a published log.
 
 ### Dock clearance
 
-A bulk carrier reports at the outer buoy: class bulk, cargo code on the bonded list, three prior clearances in the current quarter, declared value under the cargo threshold. The customs engine forward-chains. Three rules match. Specificity orders them. Certainty factors combine to a clearance weight of 0.82. The office supervisory rule emits a berth token and a discharge window. Elapsed time from report to token is under one reporting cycle. The hull proceeds. No clerk retypes the declaration.
+A bulk carrier reports: class bulk, cargo code on the bonded list, three prior clearances in the quarter, declared value under the cargo threshold. The customs partition matches three conditions. Specificity orders them. Confidences combine to 0.82. The office structure emits a berth token and a discharge window inside one cycle. No clerk retypes the declaration.
 
 ### Failed clearance
 
-A second hull reports the same class and cargo code but with a declared value above threshold and a prior failed inspection flag. Two rules fire negative factors. Combined weight falls to 0.31, below the clearance threshold. The engine writes a null-success token and an exception flag. The operations room cathode shows the flag. The hull is held at the buoy. The exception does not auto-appeal. A service-band clerk may open a manual review. The manual review does not rewrite the knowledge base.
+The same class of hull reports with declared value above threshold and a prior failed-inspection flag. Negative factors drop the weight to 0.31. The network writes a null token and an exception. The hull stays at the buoy. A service-band clerk may open a manual review. The review does not rewrite structure. Until an engineer commits a delta and the office countersigns, the null stands.
 
-### Bunk and water assignment
+### Bunk and water
 
-A temporary-worker record arrives from a mill: skill code matched to an open shift, current bunk occupancy on that rib at 0.94, water quota for the slab already at the daily cap. The labor engine fires a positive skill rule and two negative resource rules. Net weight 0.44. The office rule assigns the shift but withholds the bunk token and issues a water-wait flag. The worker receives a shift ticket and no bed assignment. The landing sees a man with a valid shift paper and nowhere to sleep. The system records the outcome as an allocation, not an exception.
+A temporary-worker record matches an open shift. Bunk occupancy on the rib is 0.94. The slab is at its water cap. The labor structure fires one positive skill condition and two negative resource conditions. Net weight 0.44. The office emits a shift ticket and withholds the bunk token, raising a water-wait flag. The outcome is logged as an allocation. The landing sees a man with valid paper and no bed.
 
-### Mid-cycle shift reassignment
+### Production scheduling
 
-A mill reports a machine fault that idles one line. The labor feed updates. Forward chaining re-evaluates open shifts against the new idle flag. A rule with higher specificity than the original assignment fires. Confidence is sufficient. The office emits a revised token canceling four shift tickets and opening two on an adjacent line. The change appears on the next horn. Workers who do not hear the horn discover the cancellation at the gate. The system does not push a spoken notice below the band.
+A mill reports three lines idle for tooling, two running, one waiting on a bonded component. The production structure matches open export orders against line state, tooling, and component availability. Running lines are assigned to a sealed electronics order. Tooling-idle lines are held for a garment lot. The component-wait line receives a null production weight and an exception. The office emits revised piece-rate tokens and a material-release token for the electronics order. The garment lot is deferred, not canceled. Deferral is a changed weight.
 
-#### Production scheduling
+### Fulfillment
 
-A contract mill reports line status at the start of the shift: three lines idle for tooling, two running, one waiting on a bonded component. The production engine holds rules for order priority, tooling compatibility, and component availability. Forward chaining matches open export orders against the live line state. Highest-specificity rule set assigns the two running lines to a sealed electronics order and holds the tooling-idle lines for a lower-priority garment lot. Component-wait line receives a null production weight and an exception flag. The office emits revised piece-rate tokens and a material-release token for the electronics order. The garment lot is not canceled. It is deferred. The deferral appears as a changed weight, not as a new order.
+An export order enters the packing structure when its production weight crosses the completion threshold. Conditions include crate count, seal status, pre-clearance, and berth window. A match assigns a bay, a seal sequence, and a lighter token. If the berth window has closed, a negative factor withholds the loading token. Goods remain in the bonded cage. Fulfillment is incomplete until the loading token exists. A crate that leaves without one is logged as untokened movement, outside the model.
 
-### Order fulfillment and export packing
+### Piece-rate
 
-An export order reaches the packing rule base when its production weight crosses the completion threshold. Predicates include crate count, seal status, customs pre-clearance, and berth window. Matching rules assign a packing bay, a seal sequence, and a lighter or truck token. If the berth window has already closed, a negative factor drops the fulfillment weight. The office withholds the loading token and raises an exception. The goods remain in the bonded cage. Fulfillment is not complete until the loading token is emitted. A crate that leaves without one is logged as an untokened movement, outside the model.
+Completed units raise a worker’s credit weight only when skill and rate-card conditions clear. The office emits a credit token only if the weight passes the pay threshold and bunk or water flags are not blocking. A worker can finish a shift and receive nothing. The mill’s fulfillment of the order and the worker’s fulfillment of the wage are separate weights. They do not coincide by default.
 
-### Piece-rate and labor fulfillment
+### Service gates
 
-Piece-rate is a service the system fulfills for the mill and withholds from the worker until the count clears. A line reports completed units. The labor-production rule base matches units against the shift’s skill code and the order’s rate card. Positive factors raise the worker’s credit weight. The office emits a credit token only when the weight clears the pay threshold and the bunk/water flags are not blocking. A worker can finish a shift, generate units, and still receive no credit token if a resource rule fires negative. The mill’s fulfillment of the order and the worker’s fulfillment of the wage are separate weights. They do not automatically coincide.
+Inspection slots, power windows, cooling, and bonded components are their own structure. No inspection token means a completed crate cannot enter the packing structure. No power-window token means a line remains at idle weight. Service fulfillment is a gate in the representation, not a side record.
 
-### Component and service allocation
+## What does not run
 
-Bonded components and crown services (power window, cooling, inspection slot) are scored by their own rule bases. A request for an inspection slot on a completed electronics crate fires against inspector availability and the order’s priority. A match emits a slot token. No match emits a wait weight. The crate cannot advance to the packing rule base until the inspection token exists. Service fulfillment is therefore a gate, not a side record. The same pattern applies to power windows for a mill line: no window token, no production weight above idle.
+The system accepts structured records and returns weights. It does not accept unconstrained queries. Appeals in ordinary language stop at clerks on the service band and do not enter the network. Bootleg listings that circulate in the lower stack are static transcriptions of earlier revisions. They lack current confidences and cannot be loaded. The live structure is not published below the band.
 
-## What the examples exclude
+## Political status
 
-None of the cycles accepts free-text input. None invents a rule to cover a missing predicate. A cargo code absent from the schema produces a null weight and an exception, not an estimated clearance. Knowledge engineers may later add the predicate. Until the commit and countersignature, the null stands.
-
-## Bootleg weights
-
-Partial rule listings circulate in the lower stack, sold as aids to anticipate or counterfeit a token. They are static extracts. They do not connect to the live relational store and rarely reproduce current confidence values. Possession is not systematically prosecuted. The office does not publish diffs.
-
-## Political and administrative status
-
-The Zone Committee files the halls under regulation by the market inside the plan. Official descriptions do not claim abolition of commodity exchange. They claim accelerated clearance and labor allocation through maintained rules. Altering a rule is an upper-city procedure requiring a knowledge-engineer commit and an office countersign. Being subject to the resulting weight is the condition of a temporary permit.
+The Zone Committee files the halls under regulation by the market inside the plan. Official statements do not claim abolition of the commodity. They claim its use for clearance and allocation. Changing structure is an upper-city procedure. Being subject to the weight that structure emits is the ordinary condition of a temporary permit.
 
 ## See also
 
 - [Project Tiaojie](project-tiaojie.md)
 - [Regulation Office](regulation-office.md)
 - [Lixin Precision](lixin.md)
-
-## Notes
-
-Certainty-factor scoring follows the MYCIN-derived practice common in early-1980s shells. No claim is made to later probabilistic graphical models.
