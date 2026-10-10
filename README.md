@@ -38,8 +38,12 @@ City article for 联口特别区, the Liankou Special Zone. Working name.
 ## Armaments and armed men
 
 - [Armaments in Liankou](weapons.md)
-- [Type 77 pistol](type-77.md)
-- [QSZ-85 pistol](qsz-85.md)
-- [Regulation beam](regulation-beam.md)
+- [Type 77 pistol](type-77.md) — basic pistol
+- [QSZ-85 pistol](qsz-85.md) — better pistol
+- [Type 79 light machine gun](type-79.md) — small machine gun
+- [Type 67 general-purpose machine gun](type-67.md) — larger machine gun
+- [Type 81 rifle](type-81.md) — ranged weapon
+- [12-gauge pump](pump-shotgun.md) — shotgun
+- [Regulation beam](regulation-beam.md) — energy weapon
 - [Zone Protection](zone-protection.md)
 - [Lower stack](lower-stack.md)
