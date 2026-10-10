@@ -13,6 +13,7 @@ This repository is the encyclopedia of the zone.
 - [Geography of Liankou](geography.md)
 - [Government of Liankou](government.md)
 - [Economy of Liankou](economy.md)
+- [Dual track in Liankou](dual-track.md)
 - [Demographics of Liankou](demographics.md)
 - [Regulation Office](regulation-office.md) (调节办公室)
 - [Project Tiaojie](project-tiaojie.md) (调节工程)
