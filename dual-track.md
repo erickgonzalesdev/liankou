@@ -2,39 +2,44 @@
 
 # Dual track in Liankou
 
-The **dual track** is the operating arrangement of the [Liankou Special Zone](liankou.md). Political authority remains a monopoly of the [Zone Committee](zone-committee.md) and is exercised as socialist administration. Economic activity inside the wall is organized as a market, with competing firms, private capital, and elite interests that are not identical to the committee. The two tracks are not a contradiction the zone failed to resolve. They are the resolution.
+The **dual track** in [Liankou](liankou.md) is the result of a sequence, not a designed balance. The zone was opened in 1978 as a special autonomous economic area inside a socialist state. Market classes developed inside that opening. The state then moved to absorb and control what the opening had produced. The [Zone Committee](zone-committee.md) remains an elite class. It is not the only one. Development-company men, private founders, foreign partners, and [White Crane](white-crane.md) lieutenants are elite and corrupt classes in the same structure. They clash. The committee’s power is real. It is not solitary.
 
-## Political track
+## The opening
 
-The committee holds the language of the state, the power to name an enemy of the socialist road, the permit regime, and the sentence. It does not own every firm. It does not clear every hull. It retains the right to seize, to publish, and to kill. [Liang Zhi](protagonist.md) was not brought down by a market competitor. He was brought down by a committee that decided his firm had become too independent of the administration’s claim. The firing squad was a political act. The sheets that still name him are a political instrument. Nothing in the market track cancels that power.
+Liankou was designated an experimental port for outside capital, export manufacture, and faster clearance than the interior plan allowed. The holiday was the point. Firms, joint ventures, contract mills, and private desks were permitted inside the fence so that foreign exchange and export figures would appear. Early capital was not a rival state. It was a class formation growing in a space the state had delimited and had not yet fully occupied. A founder could rent a site, hire temporary labor, and sell to the port without becoming a cadre. [Lixin Precision](lixin.md) was one such firm. The development company that later held the seals began as the state’s own instrument for building the sites those firms needed.
 
-Authoritarian administration and a market are not opposites in the zone’s design. The market is permitted. The permission can be withdrawn. Residence is not the same legal state as work. A permit is not a right. The lower stack is governed by neither track in full. It is housed by one and worked by the other.
+Market classes in the zone are therefore not prior to the state and not outside it. They developed within the autonomous zone the state opened. Their independence was a product of the opening’s speed. Seals, halls, and party desks lagged the contracts.
 
-## Market track
+## Absorption
 
-Inside the fence, export manufacture, foreign and overseas capital, and private firms operate on contracts, stamps, and prices. [Liankou Development](huanan-development.md) holds sites and seals. [White Crane](white-crane.md) rents legitimacy and customs hours. Smaller houses buy and sell odd lots. The [Regulation Office](regulation-office.md) scores clearances, shifts, and bunks and returns weights. Official doctrine calls this regulation by the market inside the plan. The market is the bird. The quota and the seal are the cage.
+The lag did not last as policy. As the holiday was extended and the figures became the exhibit, the committee and [Liankou Development](huanan-development.md) moved to absorb what the opening had grown. Absorption takes specific forms. A party secretary is offered, then required, on a private floor. A devotion statement is demanded before a stamp is released. An invention is to be retitled as a contribution to the productive forces. A site lease is ended and the plant vested in the development company. The language is socialist administration. The act is a state elite taking title and personnel control over a class that had been allowed to form.
 
-“Unregulated” is the wrong word for the lower and middle traffic. The zone is full of rules. What is absent is a single owner. A firm can outbid another firm. A lieutenant can sell a stamp hour. A development-company office can slow a private desk that will not take a party secretary. These are market and elite conflicts. They are not challenges to the committee’s monopoly on legitimate violence and on the definition of the socialist road.
+[Liang Zhi](protagonist.md) met the absorption at the point where his firm would not accept it. The floor meeting, the torn statement, the struggle session, and the firing squad are the committee enforcing the claim that what developed inside the zone remains subject to the zone. Most firms do not reach a squad. They take the secretary, share the credit, or pay Crane to keep the stamp moving while the absorption is negotiated. Absorption is the normal pressure. The apron is the case where pressure was refused in public.
 
-## Elite clash
+## The state as an elite class
 
-Elites in Liankou are not one class with one interest. Cadres rotate through the [Cadre Guesthouse](cadre-hotel.md) and speak for the committee. Development-company men hold the sites and the export seals. Private founders and foreign partners hold plant and contracts. Crane lieutenants hold the gap between a stamp and a shipment. These groups use one another. They also obstruct one another.
+The committee is not outside the class structure looking down on it. It is an elite class inside it. Cadres rotate through the [Cadre Guesthouse](cadre-hotel.md). They control the permit, the published enemy, and the sentence. They do not automatically control the seal revenue, the hall lease, the foreign partner’s contract, or the lieutenant’s hour. Those are held by other elites.
 
-A cadre wants a visible contribution to the productive forces and a name that can be toured. A development-company office wants the seal revenue and the hall lease. A private firm wants the stamp without the secretary. Crane wants the fee for making the stamp appear. When these aims diverge, the conflict is real. It is conducted with withheld seals, delayed clearances, bought hours, and, at the edge, with the committee’s power to reclassify a commercial refusal as an offense against the socialist road. Liang’s floor meeting was the edge. Most clashes stop short of it. They remain expensive.
+Development-company offices are a state elite with commercial instruments. They hold sites and export seals and clash with both the committee’s political men and the private desks they are meant to absorb. Private founders and overseas partners are a market elite produced by the opening. They clash with the development company over secretaries and title, and with each other over orders. Crane is a corrupt elite that sells passage between a stamp and a shipment. It clashes with anyone who tries to close the gap it rents.
 
-The lower stack does not participate in this clash as a party. It supplies the labor the clash is about. Landing bosses extract passage and beds. They do not issue permits and they do not hold seals.
+These clashes are intra-elite. A withheld seal, a delayed clearance, a bought hour, a demanded secretary, a seized plant: each is one elite class using what it holds against another. The committee can reclassify a commercial refusal as an offense against the socialist road, which is a power the others lack. That power makes it the senior elite. It does not make the others disappear, and it does not stop them from obstructing the committee when obstruction is profitable. The state elite and the market elites are in the same structure. They are not partners in a single interest.
 
-## Why both persist
+## The lower stack
 
-The committee needs the market track. Clearance time, export figures, and foreign exchange are the exhibits that extend the holiday. A purely administered port would not produce them at the required speed. The market track needs the committee. Contracts inside the wall are enforceable because the committee’s sentence stands, and because a firm that treats independence as a right can be seized and its founder published as an enemy. Neither track abolishes the other. Each limits the terms on which the other may operate.
+The [lower stack](lower-stack.md) is not an elite class. It is the labor the opening required and the absorption did not remove. Temporary permits, piece-rates, and bunks are how the upper elites work it. Landing bosses extract passage and beds. They do not hold seals and they do not issue the committee’s sentence. Violence below the band is constant and local. It is not the clash described above.
 
-The expert systems do not choose between the tracks. They score the feeds they are given and emit tokens. A weight can serve a development-company priority, a private order, or a committee campaign, depending on which structure was committed. Changing that structure is an upper-city procedure. Being subject to it is the condition of a temporary permit.
+## Persistence
+
+The market classes persist because the committee still needs the figures the opening produces. Absorption that simply closed the firms would end the exhibit. The committee persists as the senior elite because the firms still need a sentence in the background and a permit regime that can end them. Neither fact restores a single class. It maintains a structure in which a state elite, a development elite, a private elite, and a corrupt intermediary elite clash over title, stamps, and credit, while the lower stack supplies the work.
+
+The [expert systems](expert-systems.md) do not adjudicate the clash. They score the feeds and emit tokens from whatever structure the upper city has committed. Changing that structure is an upper-city procedure. Which elite committed it is a question of the clash, not of the machine.
 
 ## See also
 
 - [Zone Committee](zone-committee.md)
 - [Liankou Development Company](huanan-development.md)
-- [Regulation Office](regulation-office.md)
 - [White Crane Association](white-crane.md)
 - [Liang Zhi](protagonist.md)
+- [Lixin Precision](lixin.md)
 - [Economy of Liankou](economy.md)
+- [Lower stack](lower-stack.md)
