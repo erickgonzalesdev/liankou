@@ -22,6 +22,7 @@ This repository is the encyclopedia of the zone.
 ## Founder
 
 - [Liang Zhi](protagonist.md) (梁崎)
+- [Liang Zhi as radical individual](radical-individual.md)
 - [Lixin Precision](lixin.md) (立新精密)
 
 ## Zone structure
