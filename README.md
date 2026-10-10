@@ -1,6 +1,12 @@
 # Liankou
 
-City article for 联口特别区, the Liankou Special Zone. Working name.
+**Liankou** (联口市), formally the Liankou Special Zone (联口特别区), is a walled coastal export city opened in 1978. It was designated an experimental port for outside capital, export manufacture, and a cybernetic coordination system. By the mid-1980s the wall was still the municipal boundary and the interior had become a single skyscraper expanded faster than it could be finished: sealed galleries and climate-controlled halls at the crown, accreted rooms, ducts, and mismatched landings below, cables dropped into the surrounding city.
+
+Residence and work are separate legal states. Passage is a permit. The upper city is a joint-venture enclave administered in form by the Zone Committee and in practice by the development company that holds the seals and the inference halls. The lower stack is the labor city those ventures require. Coordination is performed by expert systems that hold operating knowledge as editable symbolic structure and lower it into parallel evaluation against live feeds from docks, mills, and dormitories. The output is a weighted token. The committee calls this regulation by the market. The lower stack calls the outputs the weights.
+
+This repository is the encyclopedia of the zone.
+
+## City
 
 - [Liankou](liankou.md)
 - [History of Liankou](history.md)
